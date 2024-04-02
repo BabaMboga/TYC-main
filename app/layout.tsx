@@ -28,17 +28,17 @@ export default function RootLayout({
       <body className={poppins.className}>
         <div className="flex flex-col min-h-screen max-w-[1920px]">
           <div className="top-0 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-            <div className="border-b flex sm:h-20 md:h-52 items-center justify-between px-4 md:px-[80px] bg-navbar">
+            <div className="border-b flex sm:h-20 md:h-16 items-center justify-between px-4 md:px-[80px] bg-navbar">
               <Link href={"/"}>
                 <Image
                 
                   src={logo}
                   alt={"TYC Africa Logo"}
-                  width={160}
-                  height={144}
+                  width={40}
+                  height={60}
                 />
               </Link>
-              <div className="flex  min-h-[75px] justify-end items-center gap-4 text-navtext text-[25px]">
+              <div className="flex  min-h-[30px] justify-end items-center gap-4 text-navtext text-[15px]">
                 <div className="flex items-center gap-3 px-3 border-r">
                   <Link href={"/"}>
                     <p className="hidden md:block md:text-xl"> Search</p>
