@@ -20,7 +20,7 @@ const Hero = () => {
         alt={"TYC youth holding hands"}
         width={1440}
         height={700}
-        className={`min-h-[390px] ${videoLoaded ? 'hidden' : 'block'} absolute w-full h-full object-cover`}
+        className={`min-h-[390px] ${videoLoaded ? 'hidden' : 'block'} absolute w-[80%] h-[70%] object-cover`}
       />
 
        {/* Video Player */}
@@ -35,7 +35,7 @@ const Hero = () => {
         autoPlay="always"
         loop
         onDataLoad={handleVideoLoaded}
-        className={`${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full h-full`}
+        className={`${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-[50] h-[50]`}
       />
 
      

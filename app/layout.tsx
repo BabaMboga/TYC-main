@@ -29,7 +29,8 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen max-w-[1920px]">
           <div className="top-0 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
             <div className="border-b flex sm:h-20 md:h-16 items-center justify-between px-4 md:px-[80px] bg-navbar">
-              <Link href={"/"}>
+              <div className="flex items-center gap-3 px-3 border-r">
+              <Link href={"/"} className="flex items-center gap-3 px-3 border-r">
                 <Image
                 
                   src={logo}
@@ -37,7 +38,10 @@ export default function RootLayout({
                   width={40}
                   height={60}
                 />
+                <p className ="sm:text-sm md:text-xl text-navtext text-[15px]">TYC AFRICA TRUST</p>
               </Link>
+              </div>
+              
               <div className="flex  min-h-[30px] justify-end items-center gap-4 text-navtext text-[15px]">
                 <div className="flex items-center gap-3 px-3 border-r">
                   <Link href={"/"}>
