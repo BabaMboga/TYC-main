@@ -4,7 +4,7 @@ import OpportunityCard from "./Card";
 const OpportunitiesCard1 = () => (
   <div className="relative flex flex-col justify-start items-center gap-2.5">
     <div className="flex flex-col items-center justify-start gap-5 p-2 text-white md:gap-16 md:p-20 grow shrink basis-0">
-      <h1 className="text-center text-2xl md:text-[42px] font-bold">
+      <h1 className="text-center text-xl md:text-[36px] font-bold">
         Explore and embrace opportunities for you
       </h1>
       <div className="grid gap-4 md:grid-cols-3">
