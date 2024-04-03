@@ -29,11 +29,11 @@ const Footer = ({}) => {
               <div className="p-2 text-xl text-white">
                 <p className="grid justify-end underline p-1 ">Join Us</p>
                 <div className="flex gap-2">
-                <Link href={'/'}><Icons.youtube className="md:h-9 md:w-9"/></Link>
-                <Link href={'/'}><Icons.twitter className="md:h-9 md:w-9"/></Link>
-                <Link href={'/'}><Icons.facebook className="md:h-9 md:w-9"/></Link>
-                <Link href={'/'}><Icons.Instagram className="md:h-9 md:w-9"/></Link>
-                <Link href={'/'}><Icons.linkedin className="md:h-9 md:w-9"/></Link>
+                <Link href={'https://www.youtube.com/@tycafricatrust'} target="_blank" rel="noopener noreferrer"><Icons.youtube className="md:h-9 md:w-9"/></Link>
+                <Link href={'/'} target="_blank" rel="noopener noreferrer"><Icons.twitter className="md:h-9 md:w-9"/></Link>
+                <Link href={'https://www.facebook.com/profile.php?id=100064939352245'} target="_blank" rel="noopener noreferrer"><Icons.facebook className="md:h-9 md:w-9"/></Link>
+                <Link href={'https://www.instagram.com/tycafrica/'} target="_blank" rel="noopener noreferrer"><Icons.Instagram className="md:h-9 md:w-9"/></Link>
+                <Link href={'/'} target="_blank" rel="noopener noreferrer"><Icons.linkedin className="md:h-9 md:w-9"/></Link>
 
                 </div>
               </div>
