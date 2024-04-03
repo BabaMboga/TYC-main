@@ -32,7 +32,7 @@ const OpportunitiesCard1 = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                      <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
                     </div>
                   </div>
@@ -61,7 +61,7 @@ const OpportunitiesCard1 = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                      <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ const OpportunitiesCard1 = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                      <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
                     </div>
                   </div>
@@ -119,7 +119,7 @@ const OpportunitiesCard1 = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                      <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
                     </div>
                   </div>
