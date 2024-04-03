@@ -17,7 +17,7 @@ const OurTeam = ({}) => {
               </h2>
             </div>
             
-            <div className="px-3 py-3 text-xl font-normal">
+            <div className="px-3 py-3 text-base font-normal">
               <div className="relative text-center whitespace-pre-wrap">
                 <p>
                 Meet the driving force behind TYC Africa Trust. Our team is a diverse blend of dedicated professionals, experts in youth development, mental health, education, and community engagement <br/> Together, we share a common goal: to be architects 
