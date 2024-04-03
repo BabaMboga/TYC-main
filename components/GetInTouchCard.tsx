@@ -12,10 +12,10 @@ const GetInTouchCard = ({}) => {
           
           <div className="flex flex-col items-start justify-start gap-12 md:h-40">
             <div className="flex flex-col items-center justify-start gap-4 md:h-40">
-              <div className="text-4xl font-bold leading-10 text-center md:text-5xl text-zinc-800">
+              <div className="text-4xl font-bold leading-10 text-center md:text-4xl text-zinc-800">
                 Get in touch
               </div>
-              <div className="text-2xl font-normal leading-10 text-center text-zinc-800">
+              <div className="text-xl font-normal leading-10 text-center text-zinc-800">
                 Want to know how we can be of service? Share your thoughts with
                 us!
               </div>
@@ -70,16 +70,16 @@ const GetInTouchCard = ({}) => {
           </div>
 
           <div className="mt-4 text-center ">
-            <span className="text-2xl font-normal leading-10 text-zinc-800">
+            <span className="text-xl font-normal leading-10 text-zinc-800">
               We’re open on 254-700 000 000 from 9 am to 6 pm, Monday to Friday.
               <br />
               Outside these hours, you can{" "}
             </span>
             <Link href={'mailto:enquiries@tycafricatrust.org'}>
-            <span className="text-2xl font-normal leading-10 underline text-zinc-800">
+            <span className="text-xl font-normal leading-10 underline text-zinc-800">
               send us an email
             </span></Link>
-            <span className="text-2xl font-normal leading-10 text-zinc-800">
+            <span className="text-xl font-normal leading-10 text-zinc-800">
               {" "}
               and we’ll get back to you when we’re back online.
             </span>
