@@ -14,7 +14,7 @@ const AnnualConferenceCard = () => {
         <h2 className="py-3 px-2 text-2xl text-center font-semibold">
           Ready to join us?
         </h2>
-        <p className="px-3 py-3 text-lg font-normal text-center">
+        <p className="px-3 py-3 text-base font-normal text-center">
           Step into an unforgettable experience! Our Annual Youth
           Conference brings together young minds from across Africa to
           learn, share, and inspire. Dive into engaging workshops,
