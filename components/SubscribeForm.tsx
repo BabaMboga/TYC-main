@@ -13,7 +13,7 @@ const SubscribeForm = ({}) => {
             <div className="flex flex-col items-start self-stretch justify-center gap-2 md:h-60">
               
               <div className="flex flex-col items-start justify-start ">
-                <div className="text-4xl font-bold md:text-5xl">
+                <div className="text-3xl font-semibold md:text-4xl">
                   We&apos;re eager to keep you in the loop.
                 </div>
               </div>
