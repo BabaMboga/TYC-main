@@ -26,11 +26,11 @@ const FactsSheet = ({}) => {
             
             </div>
             
-            <div className='grid gap-2 px-3 py-3 text-lg font-normal'>
+            <div className='grid gap-2 px-3 py-3 text-base font-normal'>
                 
                 <div className='relative text-center '>
                     <p>
-                    Last year we impacted over ----- young people into (jobs, education, counseling , etc) Find out more about our impact in young peoples lives</p>
+                    We impacted a lot of young people into (jobs, education, counseling , etc) Find out more about our impact in young peoples lives</p>
                 </div>
                 
             </div>
