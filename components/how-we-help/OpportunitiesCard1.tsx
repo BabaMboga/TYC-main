@@ -21,11 +21,11 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Youth Development program
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 Our Youth Development program is a cornerstone at TYC Africa Trust. It&apos;s dedicated to equipping young individuals with the skills, knowledge, and experiences that pave the way for leadership and success
                 </div>
               </div>
@@ -50,11 +50,11 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Talent Discovery
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 We believe in the power of individuality. Our Talent Discovery program is designed to identify and nurture the unique abilities of every young person.
                 </div>
               </div>
@@ -79,11 +79,11 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Resilience Building Program
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 Mental health is a priority at TYC Africa Trust. Our Resilience Building program focuses on empowering youth with the tools to navigate the complexities of mental well-being.
                 </div>
               </div>
@@ -108,11 +108,11 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Community Outreach
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 We are committed to being a positive force in communities through our Community Outreach program, focusing on corporate social responsibility (CSR) initiatives, environmental conservation, and support for the disadvantaged.
                 </div>
               </div>
