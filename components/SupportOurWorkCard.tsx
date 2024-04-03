@@ -31,7 +31,7 @@ const SupportOurWorkCard = ({}) => {
             </div>
             </div>
             
-            <div className='grid gap-2 px-3 py-3 text-lg font-normal'>
+            <div className='grid gap-2 px-3 py-3 text-base font-normal'>
                 <div className='relative text-center '>
                     <p>
                     Become a part of our journey in empowering African youth!</p>
