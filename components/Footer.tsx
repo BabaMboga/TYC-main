@@ -5,6 +5,9 @@ import { Separator } from "./ui/separator";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
 
 const Footer = ({}) => {
+  // Get current year
+  const currentYear = new Date().getFullYear();
+
   return (
     <>
       <div className="inline-flex flex-col items-start justify-between w-full gap-12 px-7 md:px-20 py-12 bg-neutral-950">
@@ -188,7 +191,7 @@ const Footer = ({}) => {
         <div className="self-stretch h-px bg-neutral-300" />
         <div className="inline-flex items-start self-stretch justify-start gap-12">
           <div className="text-sm font-normal leading-tight text-white">
-            TYC Africa Trust @ 2023. All rights reserved.
+            TYC Africa Trust @ {currentYear}. All rights reserved.
           </div>
           <div className="flex items-center justify-end h-10 gap-4 grow shrink basis-0">
             <div className="flex items-center justify-start gap-2 px-2 py-3">
