@@ -18,11 +18,11 @@ const LandingSection1 = ({}) => {
         </div>
 
         <div className='md:ml-[50%] md:w-1/2 md:z-10 border-b-4 border-b-black bg-white md:px-4 relative md:top-5 flex items-center flex-col'>
-            <div className='py-3 font-semibold'>
-                <h2 className='px-2 text-2xl text-center'>Unlocking Opportunities for Youth Success</h2>
+            <div className='py-3 font-normal'>
+                <h2 className='px-2 text-xl text-center'>Unlocking Opportunities for Youth Success</h2>
             </div>
 
-            <div className='grid gap-3 px-3 py-3 text-xl font-normal'>
+            <div className='grid gap-3 px-3 py-3 text-base font-normal'>
                 <div className='relative text-center whitespace-pre-wrap'>
                     <p>
                     Embarking on life&apos;s journey can be a challenge, but TYC Africa Trust is here to guide you through it. Regardless of the obstacles you face, know that we offer you steadfast support.
