@@ -27,8 +27,8 @@ const Footer = ({}) => {
               </div>
               
               <div className="p-2 text-xl text-white">
-                <p className="grid justify-end underline p-1 ">Join Us</p>
-                <div className="flex gap-2">
+                <p className="grid justify-end p-1 ">Join Us</p>
+                <div className="flex gap-10">
                 <Link href={'https://www.youtube.com/@tycafricatrust'} target="_blank" rel="noopener noreferrer"><Icons.youtube className="md:h-9 md:w-9"/></Link>
                 <Link href={'/'} target="_blank" rel="noopener noreferrer"><Icons.twitter className="md:h-9 md:w-9"/></Link>
                 <Link href={'https://www.facebook.com/profile.php?id=100064939352245'} target="_blank" rel="noopener noreferrer"><Icons.facebook className="md:h-9 md:w-9"/></Link>
