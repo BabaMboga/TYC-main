@@ -44,15 +44,15 @@ const Gallery: React.FC = () => {
   return (
     <Carousel>
       <div>
-        <img src="/image1.jpg" alt="Image 1" />
+        <img src="/images/slideshow/image001.jpg" alt="Image 1" />
         <p className="legend">Caption 1</p>
       </div>
       <div>
-        <img src="/image2.jpg" alt="Image 2" />
+        <img src="/images/slideshow/image019.jpg" alt="Image 2" />
         <p className="legend">Caption 2</p>
       </div>
       <div>
-        <img src="/image3.jpg" alt="Image 3" />
+        <img src="/images/slideshow/image027.jpg" alt="Image 3" />
         <p className="legend">Caption 3</p>
       </div>
       {/* Add more images as needed */}
