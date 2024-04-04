@@ -1,15 +1,17 @@
 import GetInTouchCard from "@/components/GetInTouchCard";
-import Image from "next/image"
+import Image from "next/image";
+import React from "react";
 
 export default function Home() {
-    const handleSubmit = (event) => {
+    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
 
         // Get form data
-        const name = event.target.elements.name.value;
-        const email = event.target.elements.email.value;
-        const subject = event.target.elements.subject.value;
-        const message = event.target.elements.message.value;
+        const formData = new FormData(event.target as HTMLFormElement);
+        const name = formData.get("name") as string;
+        const email = formData.get("email") as string;
+        const subject = formData.get("subject") as string;
+        const message = formData.get("message") as string;
 
         const encodedMessage = encodeURIComponent(` Good day, my name is ${name}. ${message} (${email})`);
 
