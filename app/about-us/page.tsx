@@ -11,6 +11,7 @@ import SupportOurWorkCard from '@/components/SupportOurWorkCard'
 import OurTeam from '@/components/about-us/OurTeam'
 import ImpactStoriesText from '@/components/about-us/ImpactStoriesText'
 import FactsSheet from '@/components/about-us/FactsSheet'
+import Gallery from '@/components/Gallery'
 
 
 export default function Home() {
@@ -44,6 +45,7 @@ export default function Home() {
 
         <div className="w-full lg:flex">
         <ImpactStoriesText/>
+        <Gallery />
       </div>
     
 
