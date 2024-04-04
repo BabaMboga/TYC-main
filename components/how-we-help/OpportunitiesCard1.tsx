@@ -33,7 +33,7 @@ const OpportunitiesCard1 = ({}) => {
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
+                     <Link className="flex" href={'/how-we-help'}>Learn more <Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
@@ -62,7 +62,7 @@ const OpportunitiesCard1 = ({}) => {
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
+                     <Link className="flex" href={'/how-we-help'}>Learn more <Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
@@ -91,7 +91,7 @@ const OpportunitiesCard1 = ({}) => {
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
+                     <Link className="flex" href={'/how-we-help'}>Learn more <Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
@@ -120,7 +120,7 @@ const OpportunitiesCard1 = ({}) => {
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/how-we-help'}>Learn more</Link> <Icons.right/>
+                     <Link className="flex" href={'/how-we-help'}>Learn more <Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
