@@ -30,7 +30,7 @@ export default function Home() {
                             title="google-maps"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63823.92673525492!2d36.95404762190003!3d-1.1637023329624467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f38a78cb4e50d%3A0xdaa7fad9c2cbf0fb!2sRuiru!5e0!3m2!1sen!2ske!4v1712223081509!5m2!1sen!2ske"
                             className="border-0 w-full h-full"
-                            allowFullScreen=""
+                            allowFullScreen={true}
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
                         ></iframe>
