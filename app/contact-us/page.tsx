@@ -65,7 +65,6 @@ export default function Home() {
                             <div className="mb-5">
                                 <textarea
                                     name="message"
-                                    type="text"
                                     rows={5}
                                     placeholder="Write your message"
                                     className="w-full p-3 focus:outline-none rounded-[5px]" 
