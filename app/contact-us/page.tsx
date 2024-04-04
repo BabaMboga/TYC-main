@@ -20,7 +20,7 @@ export default function Home() {
     return (
         <>
         <section id="contact" className="pb-16">
-            <div className="container">
+            <div className="max-w-[1080px] pl-[20px] pr-[20px] mx-auto my-auto">
                 <h2 className="text-xl font-[800] text-[2.5rem] mb-8">
                     Reach out
                 </h2>
@@ -40,9 +40,42 @@ export default function Home() {
                         <form className="w-full" onSubmit={handleSubmit}>
                             <div className="mb-5">
                                 <input 
-                                    
+                                    name="name"
+                                    type="text"
+                                    placeholder="Enter your name"
+                                    className="w-full p-3 focus:outline-none rounded-[5px]"
                                 />
                             </div>
+                            <div className="mb-5">
+                                <input
+                                    name="email"
+                                    type="email"
+                                    placeholder="Enter your email"
+                                    className="w-full p-3 focus:outline-none rounded-[5px]" 
+                                />
+                            </div>
+                            <div className="mb-5">
+                                <input
+                                    name="subject"
+                                    type="text"
+                                    placeholder="Subject"
+                                    className="w-full p-3 focus:outline-none rounded-[5px]" 
+                                />
+                            </div>
+                            <div className="mb-5">
+                                <textarea
+                                    name="message"
+                                    type="text"
+                                    rows={5}
+                                    placeholder="Write your message"
+                                    className="w-full p-3 focus:outline-none rounded-[5px]" 
+                                />
+                            </div>
+
+                            <button className="w-full p-3 focus:outline-none rounded-[5px] bg-[#193256] text-white
+                            hover:bg-[#081e21] text-center ease-linear duration-150">
+                                Send Message
+                            </button>
 
                         </form>
 
