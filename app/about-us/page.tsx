@@ -11,6 +11,7 @@ import SupportOurWorkCard from '@/components/SupportOurWorkCard'
 import OurTeam from '@/components/about-us/OurTeam'
 import ImpactStoriesText from '@/components/about-us/ImpactStoriesText'
 import FactsSheet from '@/components/about-us/FactsSheet'
+import Slider from '@/components/Slider'
 
 
 export default function Home() {
@@ -24,10 +25,14 @@ export default function Home() {
     </main>
     <div className="w-full lg:flex">
         <HeroText/>
-      </div>
+    </div>
+
+    <section>
+      <Slider />
+    </section>
 
 
-      <section className='bg-[#0E3930] max-w-max'>
+    <section className='bg-[#0E3930] max-w-max'>
       <div className=''>
         <OpportunitiesCard1/>
       </div>
@@ -40,11 +45,11 @@ export default function Home() {
           <div className=''>
             <OurTeam/>
           </div>
-        </section>
+    </section>
 
-        <div className="w-full lg:flex">
+    <div className="w-full lg:flex">
         <ImpactStoriesText/>
-      </div>
+    </div>
     
 
     <section className='block p-2 md:px-10 md:py-8 md:min-h-[575px]  bg-slate-300'>
