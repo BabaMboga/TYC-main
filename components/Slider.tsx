@@ -2,25 +2,26 @@
 import React, {useState} from 'react';
 import {BsChevronCompactLeft, BsChevronCompactRight} from 'react-icons/bs';
 import {RxDotFilled} from 'react-icons/rx';
-import img01 from '@/public/images/slider/cardpicture2.png';
-import img02 from '@/public/images/slider/image001.jpg';
-import img03 from '@/public/images/slider/image019.jpg';
-import img04 from '@/public/images/slider/image027.jpg';
-import img05 from '@/public/images/slider/image035.jpg';
-import img06 from '@/public/images/slider/photo4.jpg';
-import img07 from '@/public/images/slider/photo6.jpg';
-import img08 from '@/public/images/slider/section.jpg';
+// import img01 from '@/public/images/slider/cardpicture2.png';
+// import img02 from '@/public/images/slider/image001.jpg';
+// import img03 from '@/public/images/slider/image019.jpg';
+// import img04 from '@/public/images/slider/image027.jpg';
+// import img05 from '@/public/images/slider/image035.jpg';
+// import img06 from '@/public/images/slider/photo4.jpg';
+// import img07 from '@/public/images/slider/photo6.jpg';
+// import img08 from '@/public/images/slider/section.jpg';
 
 export default function Slider() {
     const slides = [
-        { url: img01 },
-        { url: img02 },
-        { url: img03 },
-        { url: img04 },
-        { url: img05 },
-        { url: img06 },
-        { url: img07 },
-        { url: img08 }
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123292/tyc-images/image115_gifljb.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123289/tyc-images/image107_kxseof.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123288/tyc-images/image111_qnkmoj.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123277/tyc-images/image095_squ8a2.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123267/tyc-images/image087_ew6pyf.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123264/tyc-images/image094_ngckie.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123260/tyc-images/image077_ptfrqg.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123231/tyc-images/image053_j6g3lx.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123184/tyc-images/image007_vx93p8.jpg' }
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
