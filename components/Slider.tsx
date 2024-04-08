@@ -13,7 +13,7 @@ import {RxDotFilled} from 'react-icons/rx';
 
 export default function Slider() {
     const slides = [
-        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123292/tyc-images/image115_gifljb.jpg' },
+        // { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123292/tyc-images/image115_gifljb.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123289/tyc-images/image107_kxseof.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123288/tyc-images/image111_qnkmoj.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123277/tyc-images/image095_squ8a2.jpg' },
@@ -43,7 +43,7 @@ export default function Slider() {
     } 
 
     return (
-        <div className='max-w-[1400px] h-[780px] w-full m-auto py-16 px-4 relative group'>
+        <div className='max-w-[1400px] h-[500px] w-full m-auto pb-16 pt-5 px-4 relative group'>
             <div
                 style={{backgroundImage: `url(${slides[currentIndex].url})`}}
                 className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
