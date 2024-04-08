@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
     <main className="flex flex-col w-full  ">
-      <div className="flex-col  my-10 text-sm lg:flex">
+      <div className="flex-col my-10 text-sm lg:flex">
 
        <Hero/> 
        
