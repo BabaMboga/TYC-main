@@ -16,14 +16,7 @@ import Events from '@/components/resources/Events'
 export default function Home() {
   return (
     <>
-    <main className="flex flex-col w-full px-1 ">
-      <div className="flex-col w-full text-sm lg:flex">
-
-       <Hero/> 
-       
-      </div>
-
-    </main>
+    
     <div className="w-full lg:flex">
         <HeroText/>
       </div>
