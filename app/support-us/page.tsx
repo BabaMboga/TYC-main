@@ -14,7 +14,7 @@ interface pageProps{
 const page: FC<pageProps> = ({}) => {
    return (
     <>
-    <Hero/>
+    
     <HeroText/>
 
     <section className='bg-[#0E3930] max-w-max'>
