@@ -39,11 +39,38 @@ const Home: NextPage = () => {
     }, []);
 
     return (
-        <div className="">
+        <div className={styles.container}>
             <Head>
                 <title> Countdown Timer</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
+            {launchTime ? (
+                <>
+                    <h1>
+                        Happy Launch!
+                    </h1>
+                    <video autoPlay loop muted>
+                        <source src="/party.mp4" />
+                    </video>
+                </>
+            ) : (
+                <>
+                    <div className="time-wrapper">
+                        <div className="timer-inner">
+                            <div className="timer-segment">
+                                <span className="time">{days}</span>
+                                <span className="label">Days</span>
+                            </div>
+                            <span className="divider">:</span>
+                            <div className="timer-segment">
+                                <span className="time">{hours}</span>
+                                <span className="label">Hours</span>
+                            </div>
+                        </div>
+                    </div>
+                </>
+            )}
         </div>
     )
 }
