@@ -67,10 +67,28 @@ const Home: NextPage = () => {
                                 <span className="time">{hours}</span>
                                 <span className="label">Hours</span>
                             </div>
+                            <span className="divider">:</span>
+                            <div className="timer-segment">
+                                <span className="time">{minutes}</span>
+                                <span className="label">Minutes</span>
+                            </div>
+                            <span className="divider">:</span>
+                            <div className="timer-segment">
+                                <span className="time">{seconds}</span>
+                                <span className="label">Seconds</span>
+                            </div>
                         </div>
                     </div>
+                    <Image
+                        alt="background image"
+                        src="/image.webp"
+                        layout="fill"
+                        quality={100} 
+                    />
                 </>
             )}
         </div>
-    )
-}
+    );
+};
+
+export default Home;
