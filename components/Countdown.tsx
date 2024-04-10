@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
-    const [launchTime, setLaunchTime] = useState(false):
+    const [launchTime, setLaunchTime] = useState(false);
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
@@ -27,7 +27,14 @@ const Home: NextPage = () => {
             const m = Math.floor((difference % (1000*60*60)) / (1000*60));
             setMinutes(m);
 
+            const s = Math.floor((difference % (1000 * 60)) / 1000 );
+            setSeconds(s);
             
-        })
+            if (d <= 0 && h <= 0 && s <= 0) {
+                setLaunchTime(true);
+            }
+        }, 1000);
+
+        return () => clearInterval(interval);
     })
 }
