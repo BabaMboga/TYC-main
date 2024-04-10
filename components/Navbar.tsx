@@ -24,14 +24,17 @@ import {
 const Navbar = () => {
   const [activeTab, setActiveTab] = useState("null");
 
+  
+
   return (
     <div>
       <Sheet>
-        <SheetTrigger className="flex flex-col-reverse items-center text-sm sm:gap-1 md:gap-3 md:text-xl md:flex-row">
+        <SheetTrigger 
+          className="flex flex-col-reverse items-center text-sm sm:gap-1 md:gap-3 md:text-xl md:flex-row">
           Menu <Icons.menu className=""/>
         </SheetTrigger>
 
-        <SheetContent className="border rounded-lg scroll-auto" side="top">
+        <SheetContent className="border rounded-lg scroll-auto"  side="top">
           <div className="hidden grid-flow-col gap-2 rounded md:grid grid-col-3">
             
             <div className="flex-col gap-2 p-3 border-r ">
