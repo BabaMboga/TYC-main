@@ -24,22 +24,37 @@ import {
 const Navbar = () => {
   const [activeTab, setActiveTab] = useState("null");
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen); 
+  }
+
+  const handleMenuItemClick = () => {
+    setMenuOpen(false); // Close the menu when a menu item is clicked
+  };
+
   return (
     <div>
       <Sheet>
-        <SheetTrigger className="flex flex-col-reverse items-center text-sm sm:gap-1 md:gap-3 md:text-xl md:flex-row">
+        <SheetTrigger 
+          className="flex flex-col-reverse items-center text-sm sm:gap-1 md:gap-3 md:text-xl md:flex-row"
+          onClick={handleMenuToggle} // Toggle menu visibility on trigger click
+        >
           Menu <Icons.menu className=""/>
         </SheetTrigger>
 
         <SheetContent className="border rounded-lg scroll-auto" side="top">
-          <div className="hidden grid-flow-col gap-2 rounded md:grid grid-col-3">
+          <div className={` grid-flow-col gap-2 rounded md:grid grid-col-3 ${menuOpen ? 'block' : 'hidden'}`}>
             
             <div className="flex-col gap-2 p-3 border-r ">
 
             <div 
                 onMouseEnter={() => setActiveTab("aboutn")}
                 // onMouseLeave={() => setActiveTab("null")}
-                className="hover:bg-[#F1F5F9] rounded-md p-2">
+                className="hover:bg-[#F1F5F9] rounded-md p-2"
+                onClick={handleMenuItemClick} // Close menu on click
+                >
                   <Link href={'/about-us'}>
                 <p className="font-[700]">About us</p>
                 <p className="text-[#64748B] text-sm">
