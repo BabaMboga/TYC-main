@@ -36,5 +36,14 @@ const Home: NextPage = () => {
         }, 1000);
 
         return () => clearInterval(interval);
-    })
+    }, []);
+
+    return (
+        <div className="">
+            <Head>
+                <title> Countdown Timer</title>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
+        </div>
+    )
 }
