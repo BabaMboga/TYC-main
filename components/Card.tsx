@@ -20,7 +20,7 @@ const OpportunityCard: FC<CardProps> = ({ title, description, link, image }) => 
         <div className="flex items-center justify-between h-12 py-4 pr-2 grow shrink basis-0">
           <div className="flex items-center justify-center">
             <div className="text-base font-medium leading-tight tracking-wide underline ">
-              {/* <Link href={link}>{title}</Link> */}
+              <Link href={link}>{title}</Link>
             </div>
           </div>
           <div className="relative w-6 h-6" />
