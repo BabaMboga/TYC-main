@@ -36,7 +36,7 @@ const OpportunitiesCard1: FC = () => (
         <OpportunityCard
           title="Events Calendar"
           description="Stay updated on our upcoming events, conferences, and gatherings. Dive into a calendar brimming with opportunities to connect, learn, and collaborate."
-          link="/about-us"
+          link="/our-events"
           image="/images/photo5.jpg"
         />
       </div>
