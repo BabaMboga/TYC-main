@@ -2,8 +2,19 @@ import Image from "next/image";
 import { FC } from "react";
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
+import { Calendar } from '@fullcalendar/react';
+import dayGridPlugin from '@fullcalendar/daygrid';
 
 const Home = ({}) => {
+
+  //Array of Calendar events
+
+  const EventDates = [
+    {title: 'Conference Highlight', date: '2024-04-05'},
+    {title: 'Workshop SChedule', date: '2024-04-15'},
+    {title: 'Community Outreach Program', date: '2024-04-25'}
+  ];
+
   return (
     <>
       <div className=" relative flex flex-col justify-start items-center gap-2.5 bg-[#19251D]">
@@ -20,6 +31,13 @@ const Home = ({}) => {
                   initiatives. Plan your participation and be part of events
                   that align with your interests and goals
                 </p>
+              </div>
+              <div className="" id="calendar">
+                <Calendar
+                  plugins={[ dayGridPlugin]}
+                  initialView="dayGridMonth"
+                  events={EventDates} 
+                />
               </div>
             </div>
           </div>
