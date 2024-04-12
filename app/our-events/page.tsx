@@ -3,10 +3,10 @@ import { FC } from "react";
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
 
-const Events = ({}) => {
+const Home = ({}) => {
   return (
     <>
-      <div className=" relative flex flex-col justify-start items-center gap-2.5 ">
+      <div className=" relative flex flex-col justify-start items-center gap-2.5 bg-[#19251D]">
         <div className="flex flex-col items-center justify-start gap-5 p-2 text-white md:gap-16 md:p-20 grow shrink basis-0">
           <div className="flex flex-col items-start justify-start gap-12 p-2 ">
             <div className="flex flex-col items-center justify-start gap-5 ">
@@ -204,4 +204,4 @@ const Events = ({}) => {
   );
 };
 
-export default Events;
+export default Home;
