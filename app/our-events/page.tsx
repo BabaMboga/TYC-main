@@ -10,10 +10,10 @@ const Home = ({}) => {
         <div className="flex flex-col items-center justify-start gap-5 p-2 text-white md:gap-16 md:p-20 grow shrink basis-0">
           <div className="flex flex-col items-start justify-start gap-12 p-2 ">
             <div className="flex flex-col items-center justify-start gap-5 ">
-              <div className=" text-center text-2xl  md:text-[42px] font-bold  ">
+              <div className=" text-center text-xl  md:text-[32px] font-semibold  ">
                 Events Calendar
               </div>
-              <div className=" text-center text-lg  md:text-[22px]   ">
+              <div className=" text-center text-normal  md:text-[22px]   ">
                 <p>
                   Stay informed and engaged with our events calendar. Discover
                   upcoming conferences, workshops, and community outreach
@@ -22,6 +22,10 @@ const Home = ({}) => {
                 </p>
               </div>
             </div>
+          </div>
+
+          <div className="text-xl text-center font-semibold md:text-[32px]">
+            Our Upcoming Events
           </div>
 
           <div className="grid gap-4 md:grid-cols-2">
