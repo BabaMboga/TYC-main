@@ -33,11 +33,13 @@ const Home = ({}) => {
                   that align with your interests and goals
                 </p>
               </div>
-              <div className="" id="calendar">
+              <div className="w-full" id="calendar">
                 <Calendar
                   plugins={[ dayGridPlugin]}
                   initialView="dayGridMonth"
                   events={EventDates} 
+                  height="auto"
+                  contentHeight="auto"
                 />
               </div>
             </div>
