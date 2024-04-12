@@ -1,6 +1,6 @@
 'use client'
 import Image from "next/image";
-import { FC } from "react";
+import { FC, useState } from "react";
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
 import Calendar from "react-calendar";
@@ -14,7 +14,11 @@ const Home = ({}) => {
     {date: new Date(2024, 3, 5), title: "Conference Highlight"},
     {date: new Date(2024, 3, 15), title: "Workshop Schedule"},
     {date: new Date(2024, 3, 25), title: "Community Outreach Program"}
-  ]
+  ];
+
+  //State the hold hovered event
+  const [hoveredEvent, setHoveredEvent] = useState(null);
+
   return (
     <>
       <div className=" relative flex flex-col justify-start items-center gap-2.5 bg-[#19251D]">
@@ -35,15 +39,18 @@ const Home = ({}) => {
             </div>
           </div>
 
-          <Calendar
-            tileContent={({date}) => {
-              // Check if the date matches any of the events in the array
-              const event = events.find((event) => event.date.toDateString() === date.toDateString());
-              if (event) {
-                return <div className="bg-blue-500 rounded-full h-6 w-6"></div>
-              }
-            }} 
-          />
+          <div>
+            <Calendar
+              tileContent={({date}) => {
+                // Check if the date matches any of the events in the array
+                const event = events.find((event) => event.date.toDateString() === date.toDateString());
+                if (event) {
+                  return <div className="bg-blue-500 rounded-full h-6 w-6"></div>
+                }
+              }} 
+            />
+          </div>
+
 
           <div className="text-xl text-center font-semibold md:text-[32px]">
             Our Upcoming Events
