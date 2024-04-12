@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FC } from "react";
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
-import { Calendar } from '@fullcalendar/react';
+import Calendar  from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 
 const Home = ({}) => {
