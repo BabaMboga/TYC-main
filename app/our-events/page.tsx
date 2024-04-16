@@ -127,11 +127,11 @@ const Home = ({}) => {
                   </div>
                 </div>
                 <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
-                Join us for a day of environmental stewardship as we embark on a tree planting initiative. 
-                Together, we'll nurture nature by planting trees, breathing life into our planet, and creating a greener, 
-                more sustainable future for generations to come. Let's roll up our sleeves, dig into the soil, 
-                and sow the seeds of change. Every tree we plant is a step towards a healthier, more vibrant ecosystem, 
-                and with your help, we can make a lasting impact on the world around us.
+                  Join us for a day of environmental stewardship as we embark on a tree planting initiative. 
+                  Together, we'll nurture nature by planting trees, breathing life into our planet, and creating a greener, 
+                  more sustainable future for generations to come. Let's roll up our sleeves, dig into the soil, 
+                  and sow the seeds of change. Every tree we plant is a step towards a healthier, more vibrant ecosystem, 
+                  and with your help, we can make a lasting impact on the world around us.
                 </div>
               </div>
 
@@ -173,13 +173,15 @@ const Home = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
-                    Community Outreach
+                    Compassionate Connection
                   </div>
                 </div>
                 <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
-                  Stay connected with our community outreach programs. Explore
-                  opportunities to contribute to societal well-being and make a
-                  positive impact
+                Embrace the opportunity to bring warmth and companionship to the elderly residents of our community 
+                through our Elderly Care Visit program. As we step into their homes, we step into their stories, sharing 
+                laughter, memories, and heartfelt conversations. Let's create a space where every interaction is a 
+                moment of connection, where smiles are exchanged, and hearts are lifted. Together, let's honor their 
+                wisdom, celebrate their lives, and cultivate a bond that transcends generations.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -221,16 +223,16 @@ const Home = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
-                    Youth Exchange Program
+                    Community Care Initiative
                   </div>
                 </div>
                 <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
-                  Navigate through our resources and empower yourself with the
-                  knowledge to shape a brighter future. Whether you&apos;re a
-                  participant in our programs or a curious mind seeking valuable
-                  insights, TYC Africa Trust is here to support your journey
+                  Get ready to roll up your sleeves and make a difference in our community with our Community Care 
+                  Initiative. Together, we'll come together to beautify our streets, rejuvenate our public spaces, 
+                  and create a cleaner, healthier environment for everyone to enjoy. From picking up litter to planting 
+                  flowers, every small act of kindness contributes to a more vibrant and welcoming community. Let's join 
+                  hands, harness the power of unity, and show our love and care for the places we call home.              </div>
                 </div>
-              </div>
               <div className=" gap-4 p-4 ">
                 <div className=" h-12 py-4 pr-2 grow shrink basis-0">
                   <div className="">
