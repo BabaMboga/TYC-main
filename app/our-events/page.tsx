@@ -96,9 +96,9 @@ const Home = ({}) => {
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Come and join the TYC as we visit the LITTLE ANGELS CENTER for
                   Orphans and Vulnerable Children, where we shall spend a day
-                  filled with love, laughter, and joy. Together, we'll share
+                  filled with love, laughter, and joy. Together, we&apos;ll share
                   unforgettable moments with the children, bringing smiles to
-                  their faces and warmth to their hearts. Let's make a
+                  their faces and warmth to their hearts. Let&apos;s make a
                   difference in their lives and create cherished memories that
                   will last a lifetime.
                 </div>
@@ -147,10 +147,10 @@ const Home = ({}) => {
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Join us for a day of environmental stewardship as we embark on
-                  a tree planting initiative. Together, we'll nurture nature by
+                  a tree planting initiative. Together, we&apos;ll nurture nature by
                   planting trees, breathing life into our planet, and creating a
                   greener, more sustainable future for generations to come.
-                  Let's roll up our sleeves, dig into the soil, and sow the
+                  Let&apos;s roll up our sleeves, dig into the soil, and sow the
                   seeds of change. Every tree we plant is a step towards a
                   healthier, more vibrant ecosystem, and with your help, we can
                   make a lasting impact on the world around us.
@@ -256,7 +256,7 @@ const Home = ({}) => {
                   come together to beautify our streets, rejuvenate our public
                   spaces and create a cleaner, healthier environment for
                   everyone. Every small act of kindness contributes to a more vibrant &
-                  welcoming community. Let's harness the power of
+                  welcoming community. Let&apos;s harness the power of
                   unity as we show our love and care for the places we call home.
                 </div>
               </div>
