@@ -178,7 +178,7 @@ const Home = ({}) => {
             <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
               <Image
                 alt={""}
-                src={"/images/photo7.jpg"}
+                src={"/events/tyc2.jpg"}
                 height={400}
                 width={400}
                 sizes="100vw"
@@ -229,7 +229,7 @@ const Home = ({}) => {
             <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
               <Image
                 alt={""}
-                src={"/images/cardpicture3.png"}
+                src={"/events/tyc4.jpg"}
                 height={400}
                 width={400}
                 sizes="100vw"
