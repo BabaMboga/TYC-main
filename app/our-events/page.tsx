@@ -5,15 +5,16 @@ import { Icons } from "@/components/Icons";
 import Link from "next/link";
 import Calendar  from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
+import {Tooltip} from 'react-tooltip';
 
 const Home = ({}) => {
 
   //Array of Calendar events
 
   const EventDates = [
-    {title: 'Conference Highlight', date: '2024-04-05'},
-    {title: 'Workshop SChedule', date: '2024-04-15'},
-    {title: 'Community Outreach Program', date: '2024-04-25'}
+    {title: 'Conference Highlight', date: '2024-04-05', description: 'Event: Conference Highlight'},
+    {title: 'Workshop SChedule', date: '2024-04-15', description: 'Event: Workshop Schedule'},
+    {title: 'Community Outreach ', date: '2024-04-25', description: 'Event: Community Outreach Program'}
   ];
 
   return (
@@ -37,7 +38,15 @@ const Home = ({}) => {
                 <Calendar
                   plugins={[ dayGridPlugin]}
                   initialView="dayGridMonth"
-                  events={EventDates} 
+                  events={EventDates.map(event => ({
+                    ...event,
+                    description: `Event: ${event.title}`
+                  }))} 
+                  eventContent={({event}) => (
+                    <span date-tip={event.extendedProps.description} data-for="event-tooltip">
+                      {event.title}
+                    </span>
+                  )}
                   height="auto"
                   contentHeight="auto"
                 />
@@ -225,6 +234,7 @@ const Home = ({}) => {
           </div>
         </div>
       </div>
+      <Tooltip />
     </>
   );
 };
