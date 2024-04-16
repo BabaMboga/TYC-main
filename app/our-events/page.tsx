@@ -1,6 +1,7 @@
 'use client'
 import Image from "next/image";
 import { FC } from "react";
+import { Button } from "@/components/ui/button";
 import { Icons } from "@/components/Icons";
 import Link from "next/link";
 import Calendar  from '@fullcalendar/react';
@@ -92,7 +93,11 @@ const Home = ({}) => {
                         href={"/"}
                         className="flex flex-row justify-between w-full"
                       >
-                        <p>Learn more</p> <Icons.right />
+                        <Button className='flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]'>
+                          <span>Register</span>
+                          <Icons.right/>
+                        </Button>
+
                       </Link>
                     </div>
                   </div>
@@ -136,7 +141,11 @@ const Home = ({}) => {
                         href={"/"}
                         className="flex flex-row justify-between w-full"
                       >
-                        <p>Learn more</p> <Icons.right />
+                        <Button className='flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]'>
+                          <span>Register</span>
+                          <Icons.right/>
+                        </Button>
+
                       </Link>
                     </div>
                   </div>
@@ -179,7 +188,12 @@ const Home = ({}) => {
                         href={"/"}
                         className="flex flex-row justify-between w-full"
                       >
-                        <p>Learn more</p> <Icons.right />
+                        
+                        <Button className='flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]'>
+                          <span>Register</span>
+                          <Icons.right/>
+                        </Button>
+
                       </Link>
                     </div>
                   </div>
@@ -223,7 +237,12 @@ const Home = ({}) => {
                         href={"/"}
                         className="flex flex-row justify-between w-full"
                       >
-                        <p>Learn more</p> <Icons.right />
+                        
+                        <Button className='flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]'>
+                          <span>Register</span>
+                          <Icons.right/>
+                        </Button>
+
                       </Link>
                     </div>
                   </div>
