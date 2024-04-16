@@ -89,11 +89,11 @@ const Home = ({}) => {
               ></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Love Visit
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Come and join the TYC as we visit the LITTLE ANGELS CENTER for
                   Orphans and Vulnerable Children, where we shall spend a day
                   filled with love, laughter, and joy. Together, we'll share
@@ -141,11 +141,11 @@ const Home = ({}) => {
 
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Tree Planting
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Join us for a day of environmental stewardship as we embark on
                   a tree planting initiative. Together, we'll nurture nature by
                   planting trees, breathing life into our planet, and creating a
@@ -195,19 +195,17 @@ const Home = ({}) => {
 
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Compassionate Connection
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Embrace the opportunity to bring warmth and companionship to
                   the elderly residents of our community through our Elderly
                   Care Visit program. As we step into their homes, we step into
                   their stories, sharing laughter, memories, and heartfelt
-                  conversations. Let's create a space where every interaction is
-                  a moment of connection, where smiles are exchanged, and hearts
-                  are lifted. Together, let's honor their wisdom, celebrate
-                  their lives, and cultivate a bond that transcends generations.
+                  conversations ensuring we honor honor their wisdom, celebrate
+                  their lives, and cultivate a bond that transcends generations together.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -220,7 +218,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
@@ -248,19 +246,18 @@ const Home = ({}) => {
 
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Community Care Initiative
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
-                  Get ready to roll up your sleeves and make a difference in our
-                  community with our Community Care Initiative. Together, we'll
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
+                  Get ready to roll up your sleeves and make a difference
+                  with our Community Care Initiative. We will
                   come together to beautify our streets, rejuvenate our public
-                  spaces, and create a cleaner, healthier environment for
-                  everyone to enjoy. From picking up litter to planting flowers,
-                  every small act of kindness contributes to a more vibrant and
-                  welcoming community. Let's join hands, harness the power of
-                  unity, and show our love and care for the places we call home.{" "}
+                  spaces and create a cleaner, healthier environment for
+                  everyone. Every small act of kindness contributes to a more vibrant &
+                  welcoming community. Let's harness the power of
+                  unity as we show our love and care for the places we call home.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -273,7 +270,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
