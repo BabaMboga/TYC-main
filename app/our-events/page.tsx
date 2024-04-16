@@ -62,7 +62,7 @@ const Home = ({}) => {
           <div className="grid gap-4 md:grid-cols-2">
             <div className="  border border-zinc-200 flex-col   gap-[5px] inline-flex">
               <Image
-                src={"/images/photo5.jpg"}
+                src={"/events/tyc3.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -76,13 +76,13 @@ const Home = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
-                    Conference Highlights
+                    Love Visit
                   </div>
                 </div>
                 <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
-                  Get a glimpse of the impactful conferences and workshops
-                  hosted by TYC Africa Trust. Stay updated on upcoming events
-                  and mark your calendar for enriching experiences.
+                Come and join the TYC as we visit the LITTLE ANGELS CENTER for Orphans and Vulnerable Children, 
+                where we shall spend a day filled with love, laughter, and joy. Together, we'll share unforgettable moments with the children, 
+                bringing smiles to their faces and warmth to their hearts. Let's make a difference in their lives and create cherished memories that will last a lifetime.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -109,7 +109,7 @@ const Home = ({}) => {
             <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
               <Image
                 alt={""}
-                src={"/images/photo6.jpg"}
+                src={"/events/tyc1.jpg"}
                 height={400}
                 width={400}
                 sizes="100vw"
@@ -123,13 +123,15 @@ const Home = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
-                    Workshop Schedules
+                    Tree Planting
                   </div>
                 </div>
                 <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
-                  Find details about upcoming skill development workshops and
-                  resilience-building sessions. Join us in person or virtually
-                  to enhance your capabilities.
+                Join us for a day of environmental stewardship as we embark on a tree planting initiative. 
+                Together, we'll nurture nature by planting trees, breathing life into our planet, and creating a greener, 
+                more sustainable future for generations to come. Let's roll up our sleeves, dig into the soil, 
+                and sow the seeds of change. Every tree we plant is a step towards a healthier, more vibrant ecosystem, 
+                and with your help, we can make a lasting impact on the world around us.
                 </div>
               </div>
 
