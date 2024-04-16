@@ -108,7 +108,9 @@ const Home = ({}) => {
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
-                        href={"/"}
+                        href={"https://docs.google.com/forms/d/e/1FAIpQLSfx8nAfFsB3rOMp_ZYthqc3Jvey_eyTDg5ilSDEspg-IVz8Ag/viewform?vc=0&c=0&w=1&flr=0"}
+                        target="blank"
+                        rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
                         <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
@@ -161,6 +163,8 @@ const Home = ({}) => {
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/"}
+                        target="blank"
+                        rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
                         <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
@@ -212,6 +216,8 @@ const Home = ({}) => {
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/"}
+                        target="blank"
+                        rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
                         <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
@@ -263,6 +269,8 @@ const Home = ({}) => {
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/"}
+                        target="blank"
+                        rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
                         <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
