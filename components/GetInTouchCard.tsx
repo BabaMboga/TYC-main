@@ -35,7 +35,7 @@ const GetInTouchCard = ({}) => {
                         Call us
                       </span>
                       <span className="text-xl font-medium leading-tight tracking-wide ">
-                        254-7000000
+                        +254101653836
                       </span>
                     </div>
                     
@@ -71,7 +71,7 @@ const GetInTouchCard = ({}) => {
 
           <div className="mt-4 text-center ">
             <span className="text-xl font-normal leading-10 text-zinc-800">
-              We’re open on 254-700 000 000 from 9 am to 6 pm, Monday to Friday.
+              We’re open on +254-101 653 836 from 9 am to 6 pm, Monday to Friday.
               <br />
               Outside these hours, you can{" "}
             </span>
