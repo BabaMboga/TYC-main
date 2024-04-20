@@ -15,7 +15,7 @@ interface pageProps{
 const page: FC<pageProps> = ({}) => {
    return (
     <>
-    <Hero/>
+    
     {/* <HeroText/> */}
     <div className='flex items-center h-fit m-7'>
          <p className='font-semibold text-2xl mx-6'>
