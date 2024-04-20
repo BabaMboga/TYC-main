@@ -43,12 +43,12 @@ export default function RootLayout({
               </div>
               
               <div className="flex  min-h-[30px] justify-end items-center gap-4 text-navtext text-[15px]">
-                <div className="flex items-center gap-3 px-3 border-r">
+                {/* <div className="flex items-center gap-3 px-3 border-r">
                   <Link href={"/"}>
                     <p className="hidden md:block md:text-xl"> Search</p>
                   </Link>{" "}
                   <Icons.search />
-                </div>
+                </div> */}
                 <div className="flex items-center gap-3 px-3 border-r">
                   <Link href={"/support-us/donate"}>
                     <p className="block sm:text-sm md:text-xl"> Donate</p>{" "}
