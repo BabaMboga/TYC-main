@@ -26,10 +26,10 @@ const Hero = () => {
        {/* Video Player */}
        <CldVideoPlayer
         width="1920"
-        height="1080"
+        height="500"
         src="mevv8tnxabpoem4tde7k"
-        fluid
         muted
+        fluid
         controls
         hideContextMenu
         autoPlay="always"

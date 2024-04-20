@@ -24,7 +24,7 @@ import {
 const Navbar = () => {
   const [activeTab, setActiveTab] = useState("null");
 
-  
+
 
   return (
     <div>
@@ -43,7 +43,7 @@ const Navbar = () => {
                 onMouseEnter={() => setActiveTab("aboutn")}
                 // onMouseLeave={() => setActiveTab("null")}
                 className="hover:bg-[#F1F5F9] rounded-md p-2">
-                  <Link href={'/about-us'}>
+                  <Link href={'/about-us'} >
                 <p className="font-[700]">About us</p>
                 <p className="text-[#64748B] text-sm">
                   Welcome to the heart of TYC Africa Trust, where our story
