@@ -8,7 +8,24 @@ const MpesaCard = () => {
                         <div className="bg-white p-2 rounded-md mt-2">
                             <p className="font-bold text-black"> Paybill No</p>
                             <div className="flex">
-                                
+                                <div className="bg-white p-2 rounded-md mr-1">
+                                    <p className="text-black"> 1 </p>
+                                </div>
+                                <div className="bg-white p-2 rounded-md mr-1">
+                                    <p className="text-black">2</p>
+                                </div>
+                                <div className="bg-white p-2 rounded-md mr-1">
+                                    <p className="text-black">3</p>
+                                </div>
+                                <div className="bg-white p-2 rounded-md mr-1">
+                                    <p className="text-black">4</p>
+                                </div>
+                                <div className="bg-white p-2 rounded-md mr-1">
+                                    <p className="text-black">5</p>
+                                </div>
+                                <div className="bg-white p-2 rounded-md mr-1">
+                                    <p className="text-black">6</p>
+                                </div>
                             </div>
                         </div>
                     </div>
