@@ -18,7 +18,7 @@ export default function Slider() {
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123288/tyc-images/image111_qnkmoj.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123277/tyc-images/image095_squ8a2.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123267/tyc-images/image087_ew6pyf.jpg' },
-        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123264/tyc-images/image094_ngckie.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123201/tyc-images/image021_v2kohp.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123260/tyc-images/image077_ptfrqg.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123231/tyc-images/image053_j6g3lx.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123184/tyc-images/image007_vx93p8.jpg' }
