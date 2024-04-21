@@ -182,7 +182,7 @@ const Home = ({}) => {
             <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
               <Image
                 alt={""}
-                src={"/events/tyc2.jpg"}
+                src={"/images/love-visit.jpg"}
                 height={400}
                 width={400}
                 sizes="100vw"
