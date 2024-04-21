@@ -31,7 +31,7 @@ const FactsSheet = ({}) => {
                 <div className='relative text-center '>
                     <p>
                         At TYC, our recent endeavors have revolved around a dynamic blend of teaching, molding, nurturing and giving back to the community.
-                        Our team has meticulously curated programs that not only educate but alson inspire younf minds to pursure their passions and make 
+                        Our team has meticulously curated programs that not only educate but also inspire young minds to pursue their passions and make 
                         and make positive contributions to society. We instill a sense of social responsibility & empathy by actively engaging in community 
                         outreach initiatives, organizing events and volunteering efforts such as:
                     </p>
