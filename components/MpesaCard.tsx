@@ -29,6 +29,20 @@ const MpesaCard = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="bg-white p-2 rouded-md">
+                        <p className="font-bold text-black">Account No</p>
+                        <div className="flex">
+                            <div className="bg-white p-2 rounded-md mr-1">
+                                <p className="text-black">7</p>
+                            </div>
+                            <div className="bg-white p-2 rounded-md mr-1">
+                                <p className="text-black">8</p>
+                            </div>
+                            <div>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>
