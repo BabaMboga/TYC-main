@@ -51,3 +51,5 @@ const MpesaCard = () => {
         </>
     )
 }
+
+export default MpesaCard 
