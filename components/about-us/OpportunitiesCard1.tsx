@@ -31,7 +31,7 @@ const OpportunitiesCard1: FC = () => (
           title="Our People"
           description="Meet the inspiring minds that shape the heart of TYC Africa Trust. Learn about the dedicated individuals behind our vision and their contributions to empowering youth and transforming communities."
           link="/about-us"
-          image="https://res.cloudinary.com/djfitsjh9/image/upload/v1706123113/tyc-images/image033_ygs7er.jpg"
+          image="/images/new/photo4.jpg"
         />
         <OpportunityCard
           title="Events Calendar"
