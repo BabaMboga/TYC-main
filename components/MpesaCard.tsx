@@ -5,7 +5,7 @@ const MpesaCard = () => {
                 <div className="flex justify-center mb-4">
                     <div className="text-left mr-6">
                         <p className="font-bold text-white ">Your contribution makes a world of difference. Join us in making a difference, empowering communities and transforming lives one act of generosity at a time with your kind donation.</p>
-                        <div className="bg-white p-2 rounded-md mt-2">
+                        <div className=" p-2 rounded-md mt-2">
                             <p className="font-bold text-black"> Paybill No</p>
                             <div className="flex">
                                 <div className="bg-white p-2 rounded-md mr-1">
@@ -29,7 +29,7 @@ const MpesaCard = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="bg-white p-2 rouded-md">
+                    <div className=" p-2 rouded-md">
                         <p className="font-bold text-black">Account No</p>
                         <div className="flex">
                             <div className="bg-white p-2 rounded-md mr-1">
