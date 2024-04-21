@@ -38,8 +38,11 @@ const MpesaCard = () => {
                             <div className="bg-white p-2 rounded-md mr-1">
                                 <p className="text-black">8</p>
                             </div>
-                            <div>
-                                <p></p>
+                            <div className="bg-white p-2 rounded-md mr-1">
+                                <p className="text-black">9</p>
+                            </div>
+                            <div className="bg-white p-2 rounded-md mr-1">
+                                <p className="text-black">0</p>
                             </div>
                         </div>
                     </div>
