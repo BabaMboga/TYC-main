@@ -7,6 +7,7 @@ import MoretoExplore from '@/components/support-us/MoretoExplore'
 import OpportunitiesCard1 from '@/components/support-us/OpportunitiesCard1'
 import {FC} from 'react'
 import DonationCard from '@/components/DonationCard'
+import MpesaCard from '@/components/MpesaCard'
 
 interface pageProps{
 
@@ -24,7 +25,8 @@ const page: FC<pageProps> = ({}) => {
          <DonationCard/>
 
     </div>
-    
+
+    <MpesaCard />    
     
     
     <GetInTouchCard/>

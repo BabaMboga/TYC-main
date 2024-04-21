@@ -77,4 +77,8 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .paybill-box{
+    height: calc(100vh / 3);
+  }
 }
