@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const MpesaCard = () => {
   return (
     <>
@@ -41,12 +43,24 @@ const MpesaCard = () => {
                         <div className="bg-white p-2 rounded-md mr-1">
                           <p className="text-black">7</p>
                         </div>
+                        <div className="bg-white p-2 rounded-md mr-1">
+                          <p className="text-black">8</p>
+                        </div>
+                        <div className="bg-white p-2 rounded-md mr-1">
+                          <p className="text-black">9</p>
+                        </div>
+                        <div className="bg-white p-2 rounded-md mr-1">
+                          <p className="text-black">0</p>
+                        </div>
                       </div>
                     </div>
                 </div>
 
             </div>
 
+        </div>
+        <div className="md:w-1/3 flex justify-center items-center">
+          <Image src={'/images/donation-icon.png'} alt={'Donation icon'} width={500} height={500}></Image>
         </div>
       </div>
     </>
