@@ -11,7 +11,7 @@ const FactsSheet = ({}) => {
         <div className='md:absolute h-full md:w-[55%]'>
             <div className='top-0 left-0 w-full h-full md:absolute '>
                 <div className='overflow-hidden opacity-1 '>
-                    <Image className='border' src={'/images/photo7.jpg'} alt={'TYC members being adviced'} width={720} height={994}></Image>
+                    <img className='border' src={'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123146/tyc-images/image146_lwfm75.jpg'} alt={'TYC members being adviced'} width={720} height={994} />
                 </div>
             </div>
         </div>

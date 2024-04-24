@@ -14,11 +14,11 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
              
-              <Image src={"/images/cardpicture1.png"} alt={""} height={400} width={400}sizes="100vw"
+              <img src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123108/tyc-images/image021_zypiuz.jpg"} alt={""} height={400} width={400}sizes="100vw"
               // Make the image display full width
               style={{
                 width: '100%',
-                height: '400px',}}></Image>
+                height: '400px',}} />
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
@@ -43,11 +43,11 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
              
-              <Image src={"/images/use/image097.jpg"} alt={""} height={400} width={400} sizes="100vw"
+              <img src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123169/tyc-images/image155_qpjhtm.jpg"} alt={""} height={400} width={400} sizes="100vw"
               // Make the image display full width
               style={{
                 width: '100%',
-                height: '400px',}}></Image>
+                height: '400px',}} />
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
