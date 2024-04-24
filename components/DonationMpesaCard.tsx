@@ -34,7 +34,7 @@ const DonationMpesaCard = () => {
 
               <div className="flex justify-center">
                 <div className="p-2 rounded-md">
-                  <div className="border border-green-500 rounded-md p-2">
+                  <div className="border bg-green-500 border-green-500 rounded-md p-2">
                     <p className="font-bold text-center text-black">Paybill No</p>
                     <div className="flex">
                       <div className="bg-white p-2 rounded-md mr-1">
@@ -56,8 +56,8 @@ const DonationMpesaCard = () => {
                   </div>
                 </div>
                 <div className="p-2 rounded-md ml-4">
-                  <div className="border bg-green-500 border-gray-300 rounded-md p-2">
-                    <p className="font-bold text-black">Account No</p>
+                  <div className="border bg-green-500 border-green-300 rounded-md p-2">
+                    <p className="font-bold text-center text-black">Account No</p>
                     <div className="flex">
                       <div className="bg-white p-2 rounded-md mr-1">
                         <p className="text-black">6</p>
