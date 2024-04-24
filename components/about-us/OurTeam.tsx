@@ -40,13 +40,14 @@ of positive change in the lives of young individuals.
           <div className="md:absolute inset-y-0  right-0 h-full md:w-[55%]">
             <div className="w-full h-full md:absolute ">
               <div className="overflow-hidden opacity-1 ">
-                <Image
+                
+                <img
                   className="border"
-                  src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123113/tyc-images/image033_ygs7er.jpg"}
-                  alt={"TYC members standing together"}
+                  src ="https://res.cloudinary.com/djfitsjh9/image/upload/v1706123113/tyc-images/image033_ygs7er.jpg"
+                  alt ="TYC members standing together"
                   width={720}
-                  height={994}
-                ></Image>
+                  height={994} 
+                />
               </div>
             </div>
           </div>
