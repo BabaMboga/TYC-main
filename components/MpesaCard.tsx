@@ -5,7 +5,7 @@ const MpesaCard = () => {
     <>
       <div className="flex flex-col md:flex-row md:items-center">
         <div className="md:w-2/3">
-            <div className="bg-green-500 text-white text-center py-4 md:py-8 px-4 md:px-8 mx-auto rounded-lg md:rounded-none">
+            <div className="bg-[#19251D] text-white text-center py-4 md:py-8 px-4 md:px-8 my-2 rounded-lg md:rounded-none">
                 <p className="font-bold text-white mb-4">
                     Your contribution makes a world of difference. Join us in empowering communities and transforming lives one act at a time with your kind donation. 
                 </p>
@@ -55,13 +55,15 @@ const MpesaCard = () => {
                       </div>
                     </div>
                 </div>
+                <div className="md:w-1/3 flex justify-center items-center">
+                  <Image src={'/images/donation-icon.png'} alt={'Donation icon'} width={500} height={500}></Image>
+                </div>
 
             </div>
+            
 
         </div>
-        <div className="md:w-1/3 flex justify-center items-center">
-          <Image src={'/images/donation-icon.png'} alt={'Donation icon'} width={500} height={500}></Image>
-        </div>
+        
       </div>
     </>
   );
