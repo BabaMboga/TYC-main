@@ -13,18 +13,18 @@ const Home = ({}) => {
 
   const EventDates = [
     {
-      title: "Conference Highlight",
-      date: "2024-04-05",
-      description: "Event: Conference Highlight",
+      title: "Love Visit",
+      date: "2024-03-23",
+      description: "Event: Love Visit",
     },
     {
-      title: "Workshop SChedule",
-      date: "2024-04-15",
-      description: "Event: Workshop Schedule",
+      title: "Love Visit",
+      date: "2024-05-05",
+      description: "Event: Love Visit",
     },
     {
-      title: "Community Outreach ",
-      date: "2024-04-25",
+      title: "Youth Conference",
+      date: "2024-12-10",
       description: "Event: Community Outreach Program",
     },
   ];
