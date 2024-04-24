@@ -11,7 +11,7 @@ interface CardProps{
 
 const OpportunityCard: FC<CardProps> = ({ title, description, link, image }) => (
     <div className="border border-zinc-200  flex-col justify-between items-center gap-[5px] inline-flex">
-      <Image alt={description} src={image} height={400} width={400} sizes="100vw" style={{ width: '100%', height: '400px' }} />
+      <img alt={description} src={image} height={400} width={400} sizes="100vw" style={{ width: '100%', height: '400px' }} />
       <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
         <h2 className="text-xl md:text-[30px] text-center font-semibold md:leading-[34px]">{title}</h2>
         <p className="self-stretch text-base font-normal leading-[33.60px]">{description}</p>

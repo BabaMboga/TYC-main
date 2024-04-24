@@ -18,7 +18,7 @@ const OpportunitiesCard1 = () => (
           title="Get Empowered"
           description="Work with us to discover internship opportunities, student exchange programs and other campaigns in your chosen field."
           link="/how-we-help"
-          image="/images/use/image142.jpg"
+          image="https://res.cloudinary.com/djfitsjh9/image/upload/v1706123848/tyc-images/image131_j6xplp.jpg"
         />
         <OpportunityCard
           title="Get Involved"
