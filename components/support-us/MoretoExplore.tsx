@@ -1,4 +1,4 @@
-'use Client'
+'use client'
 import { FC } from "react";
 import { Button } from "../ui/button";
 import { Icons } from "../Icons";

@@ -18,13 +18,13 @@ const page: FC<pageProps> = ({}) => {
     <>
     
     <HeroText/>
-    <div className='flex items-center h-fit m-7'>
+    {/* <div className='flex items-center h-fit m-7'>
          <p className='font-semibold text-2xl mx-6'>
             Help support young people by donating today
          </p>
          <DonationCard/>
 
-    </div>
+    </div> */}
 
     <MpesaCard />    
     
