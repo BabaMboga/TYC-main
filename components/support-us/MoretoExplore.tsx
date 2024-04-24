@@ -11,6 +11,10 @@ const MoretoExplore = ({}) => {
   const handleModalOpen = () => {
     setShowModal(true);
   }
+
+  const handleModalClose = () => {
+    setShowModal(false);
+  }
   return (
     <>
       <div className="w-full md:px-20 py-14 bg-[#810E0E] flex-col justify-start items-center inline-flex">
@@ -40,7 +44,10 @@ const MoretoExplore = ({}) => {
           </div>
 
 
-          <div className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+          <div 
+            className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
+            onClick={handleModalOpen}
+          >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Philanthropic giving
             </div>
@@ -48,7 +55,10 @@ const MoretoExplore = ({}) => {
           </div>
 
 
-          <div className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+          <div 
+            className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
+            onClick={handleModalOpen}
+          >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12  text-2xl font-semibold  leading-10 tracking-wide">
               Partner wih us
             </div>
@@ -56,7 +66,10 @@ const MoretoExplore = ({}) => {
           </div>
 
           
-          <div className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+          <div 
+            className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
+            onClick={handleModalOpen}
+          >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Other ways to give
             </div>
@@ -64,7 +77,7 @@ const MoretoExplore = ({}) => {
           </div>
         </div>
       </div>
-      {showModal && <Modal />}
+      {showModal && <Modal handleClose={handleModalClose} />}
     </>
   );
 };
