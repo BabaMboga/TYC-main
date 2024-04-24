@@ -19,7 +19,7 @@ const OpportunitiesCard1: FC = () => (
           title="Our History"
           description="Dive into our rich history. Learn about the inception, growth, and milestones that define our path, shaping the present and paving the way for our future endeavors."
           link="/about-us"
-          image="/images/new/photo2.jpg"
+          image="https://res.cloudinary.com/djfitsjh9/image/upload/v1706123094/tyc-images/image003_j1xgth.jpg"
         />
         <OpportunityCard
           title="Our Stories"
@@ -37,7 +37,7 @@ const OpportunitiesCard1: FC = () => (
           title="Events Calendar"
           description="Stay updated on our upcoming events, conferences, and gatherings. Dive into a calendar brimming with opportunities to connect, learn, and collaborate."
           link="/our-events"
-          image="/images/photo5.jpg"
+          image="https://res.cloudinary.com/djfitsjh9/image/upload/v1706123084/tyc-images/image039_youutg.jpg"
         />
       </div>
     </div>
