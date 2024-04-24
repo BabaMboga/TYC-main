@@ -43,7 +43,7 @@ of positive change in the lives of young individuals.
                 
                 <img
                   className="border"
-                  src ="https://res.cloudinary.com/djfitsjh9/image/upload/v1706123113/tyc-images/image033_ygs7er.jpg"
+                  src ="https://res.cloudinary.com/djfitsjh9/image/upload/v1706124513/tyc-images/image052_tonrt3.jpg"
                   alt ="TYC members standing together"
                   width={720}
                   height={994} 
