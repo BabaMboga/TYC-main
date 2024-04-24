@@ -27,7 +27,10 @@ const page: FC<pageProps> = ({}) => {
 
     </div> */}
 
-    <MpesaCard />    
+    {/* <MpesaCard />     */}
+
+
+    <DonationMpesaCard />
     
     
     <GetInTouchCard/>
