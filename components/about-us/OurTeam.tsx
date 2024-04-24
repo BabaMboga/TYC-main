@@ -42,7 +42,7 @@ of positive change in the lives of young individuals.
               <div className="overflow-hidden opacity-1 ">
                 <Image
                   className="border"
-                  src={"/images/use/image029.jpg"}
+                  src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123113/tyc-images/image033_ygs7er.jpg"}
                   alt={"TYC members standing together"}
                   width={720}
                   height={994}
