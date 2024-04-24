@@ -25,26 +25,29 @@ const DonationMpesaCard = () => {
 
                             <div className="flex justify-center">
                                 <div className="p-2 rounded-md">
-                                    <p className="font-bold text-black">
-                                        Paybill No
-                                    </p>
-                                    <div className="flex">
-                                        <div className="bg-white p-2 rounded-md mr-1">
-                                            <p className="text-black">1</p>
-                                        </div>
-                                        <div className="bg-white p-2 rounded-md mr-1">
-                                            <p className="text-black">2</p>
-                                        </div>
-                                        <div className="bg-white p-2 rounded-md mr-1">
-                                            <p className="text-black">3</p>
-                                        </div>
-                                        <div className="bg-white p-2 rounded-md mr-1">
-                                            <p className="text-black">4</p>
-                                        </div>
-                                        <div className="bg-white p-2 rounded-md mr-1">
-                                            <p className="text-black">5</p>
+                                    <div className="border border-green-500 rounded-md p-2">
+                                        <p className="font-bold text-black">
+                                            Paybill No
+                                        </p>
+                                        <div className="flex">
+                                            <div className="bg-white p-2 rounded-md mr-1">
+                                                <p className="text-black">1</p>
+                                            </div>
+                                            <div className="bg-white p-2 rounded-md mr-1">
+                                                <p className="text-black">2</p>
+                                            </div>
+                                            <div className="bg-white p-2 rounded-md mr-1">
+                                                <p className="text-black">3</p>
+                                            </div>
+                                            <div className="bg-white p-2 rounded-md mr-1">
+                                                <p className="text-black">4</p>
+                                            </div>
+                                            <div className="bg-white p-2 rounded-md mr-1">
+                                                <p className="text-black">5</p>
+                                            </div>
                                         </div>
                                     </div>
+                                    
                                 </div>
                                 <div className="p-2 rounded-md ml-4">
                                     <div className="border border-gray-300 rounded-md p-2">
