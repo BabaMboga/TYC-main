@@ -8,6 +8,7 @@ import OpportunitiesCard1 from '@/components/support-us/OpportunitiesCard1'
 import {FC} from 'react'
 import DonationCard from '@/components/DonationCard'
 import MpesaCard from '@/components/MpesaCard'
+import DonationMpesaCard from '@/components/DonationMpesaCard'
 
 interface pageProps{
 
