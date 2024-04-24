@@ -2,7 +2,7 @@ const MpesaCard = () => {
     return (
         <>
             <div className="bg-green-500 text-white text-center py-4 paybill-box">
-                <div className="flex justify-center mb-4">
+                <div className="flex-col justify-center mb-4">
                     <div className="text-left mr-6">
                         <p className="font-bold text-white ">Your contribution makes a world of difference. Join us in making a difference, empowering communities and transforming lives one act of generosity at a time with your kind donation.</p>
                         <div className=" p-2 rounded-md mt-2">

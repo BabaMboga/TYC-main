@@ -1,8 +1,16 @@
+'use Client'
 import { FC } from "react";
 import { Button } from "../ui/button";
 import { Icons } from "../Icons";
+import { useState } from "react";
+import Modal from "@/components/support-us/donate/modal";
 
 const MoretoExplore = ({}) => {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleModalOpen = () => {
+    setShowModal(true);
+  }
   return (
     <>
       <div className="w-full md:px-20 py-14 bg-[#810E0E] flex-col justify-start items-center inline-flex">
@@ -21,7 +29,10 @@ const MoretoExplore = ({}) => {
         </div>
         
         <div className="grid items-start justify-start gap-5 py-5 md:gap-24 md:grid-cols-2 md:py-20 px-14">
-          <div className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+          <div 
+            className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
+            onClick={handleModalOpen}
+          >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Large gift donation
             </div>
@@ -53,6 +64,7 @@ const MoretoExplore = ({}) => {
           </div>
         </div>
       </div>
+      {showModal && <Modal />}
     </>
   );
 };
