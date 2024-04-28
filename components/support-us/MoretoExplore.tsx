@@ -60,7 +60,7 @@ const MoretoExplore = ({}) => {
             onClick={handleModalOpen}
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12  text-2xl font-semibold  leading-10 tracking-wide">
-              Partner wih us
+              Partner with us
             </div>
             <div className="w-44 h-36 left-[274px] top-0 absolute opacity-70" />
           </div>
