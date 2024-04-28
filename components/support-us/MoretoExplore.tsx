@@ -91,7 +91,7 @@ const MoretoExplore = ({}) => {
             onClick={() =>
               handleModalOpen(
                 "Volunteerism",
-                "Volunteerism with TYC Africa Trust offers a rewarding opportunity to make a difference through mentoring, sharing talents and donating time & skills. Volunteers may offer their expertise, labor or professional services to support nonprofit organisations, schools, hospitals or other community groups. Through mentorship, you can ispire and guide individuals to unlock their potential while learning and growing. Join our volunteer community today and be part of the transformative journey towards positive change in Africa."
+                "Volunteerism with TYC Africa Trust offers a rewarding opportunity to make a difference through mentoring, sharing talents and donating time & skills. Volunteers may offer their expertise, labor or professional services to support nonprofit organisations, schools, hospitals or other community groups. Through mentorship, you can inspire and guide individuals to unlock their potential while learning and growing."
               )
             }
           >
