@@ -58,7 +58,12 @@ const MoretoExplore = ({}) => {
 
           <div
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={() => handleModalOpen("Philanthropic Giving"," I did not understand philanthropic giving.")}
+            onClick={() =>
+              handleModalOpen(
+                "Philanthropic Giving",
+                " I did not understand philanthropic giving."
+              )
+            }
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Philanthropic giving
@@ -68,7 +73,12 @@ const MoretoExplore = ({}) => {
 
           <div
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={() => handleModalOpen("Partner With Us", "Collaborate with TYC Africa Trust as a valued partner. Together we can amplify each other's commitment to social responsibility and community empowerment. Collaborate with us to drive meaningful change across Africa and the world at Large. Whether you're a corporation foundation nonprofit organization or individual donor our tailored partnership opportunities align with your values and goals. Through strategic collaborations, we address complex social challnges and build resilient communities, making a tangible difference in people's lives.")}
+            onClick={() =>
+              handleModalOpen(
+                "Partner With Us",
+                "Collaborate with TYC Africa Trust as a valued partner. Together we can amplify each other's commitment to social responsibility and community empowerment. Collaborate with us to drive meaningful change across Africa and the world at Large. Whether you're a corporation foundation nonprofit organization or individual donor our tailored partnership opportunities align with your values and goals. Through strategic collaborations, we address complex social challnges and build resilient communities, making a tangible difference in people's lives."
+              )
+            }
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12  text-2xl font-semibold  leading-10 tracking-wide">
               Partner with us
@@ -78,7 +88,12 @@ const MoretoExplore = ({}) => {
 
           <div
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={() => handleModalOpen("Volunteerism", "Volunteerism with TYC Africa Trust offers a rewarding opportunity to make a difference through mentoring, sharing talents and donating time & skills. Volunteers may offer their expertise, labor or professional services to support nonprofit organisations, schools, hospitals or other community groups. Through mentorship, you can ispire and guide individuals to unlock their potential while learning and growing. Join our volunteer community today and be part of the transformative journey towards positive change in Africa.")}
+            onClick={() =>
+              handleModalOpen(
+                "Volunteerism",
+                "Volunteerism with TYC Africa Trust offers a rewarding opportunity to make a difference through mentoring, sharing talents and donating time & skills. Volunteers may offer their expertise, labor or professional services to support nonprofit organisations, schools, hospitals or other community groups. Through mentorship, you can ispire and guide individuals to unlock their potential while learning and growing. Join our volunteer community today and be part of the transformative journey towards positive change in Africa."
+              )
+            }
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Volunteerism
@@ -87,7 +102,13 @@ const MoretoExplore = ({}) => {
           </div>
         </div>
       </div>
-      {showModal && <Modal title={modalTitle} description={modalDescription} handleClose={handleModalClose} />}
+      {showModal && (
+        <Modal
+          title={modalTitle}
+          description={modalDescription}
+          handleClose={handleModalClose}
+        />
+      )}
     </>
   );
 };
