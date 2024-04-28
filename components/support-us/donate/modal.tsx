@@ -5,10 +5,11 @@ import FC from "react";
 
 interface ModalProps {
   title : string
+  description : string
   handleClose: () => void;
 }
 
-const Modal: React.FC<ModalProps> = ({title, handleClose }) => {
+const Modal: React.FC<ModalProps> = ({title, description, handleClose }) => {
   return (
     <>
       <>
@@ -31,7 +32,7 @@ const Modal: React.FC<ModalProps> = ({title, handleClose }) => {
               {/* body */}
               <div className="relative p-6 flex-auto">
                 <p className="my-4 text-blueGray-500 text-lg leading-relaxed">
-                  something needs to be written here
+                  {description}
                 </p>
               </div>
               {/* footer */}
