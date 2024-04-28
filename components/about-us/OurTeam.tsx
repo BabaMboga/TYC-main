@@ -28,7 +28,7 @@ of positive change in the lives of young individuals.
 
             <div className='flex items-center pb-4'>
             
-            <Link href={'/about-us'}>
+            <Link href={'/our-team'}>
             <Button className='flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(100,116,139,1)] hover:shadow-[15px_8px_0px_rgba(100,116,139,1)]'>
                 <span>Meet the team</span>
                 <Icons.right/>
