@@ -11,7 +11,7 @@ const HeroText = () => {
                 <p className="text-xl font-normal text-center md:px-2">
                     Our team is comprised of passionate individuals who are committed to making a difference. 
                     With diverse backgrounds and expertise, we come together to provide unwavering support and 
-                    guidance to our community. Whether it's mentoring, coaching, or simply lending a listening 
+                    guidance to our community. Whether it&apos;s mentoring, coaching, or simply lending a listening 
                     ear, we strive to empower each other and those we serve. Join us on this journey of 
                     collaboration and growth as we work towards a brighter future together. 
                 </p>
