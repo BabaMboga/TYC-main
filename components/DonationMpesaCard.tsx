@@ -11,6 +11,8 @@ const DonationMpesaCard = () => {
                 className="absolute inset-0 h-full w-full object-cover"
                 src="/images/donation-icon-preview.png"
                 alt="donation-icon"
+                width={500}
+                height={500}
               ></Image>
             </div>
 
@@ -33,7 +35,7 @@ const DonationMpesaCard = () => {
               </p>
 
               <div className="flex justify-center">
-                <div className="p-2 rounded-md">
+                <div className="p-10 rounded-md">
                   <div className="border bg-green-500 border-green-500 rounded-md p-2">
                     <p className="font-bold text-center text-black">Paybill No</p>
                     <div className="flex">
@@ -55,7 +57,7 @@ const DonationMpesaCard = () => {
                     </div>
                   </div>
                 </div>
-                <div className="p-2 rounded-md ml-4">
+                <div className="p-10 rounded-md ml-4">
                   <div className="border bg-green-500 border-green-300 rounded-md p-2">
                     <p className="font-bold text-center text-black">Account No</p>
                     <div className="flex">
