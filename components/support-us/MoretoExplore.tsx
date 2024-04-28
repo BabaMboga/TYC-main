@@ -76,7 +76,7 @@ const MoretoExplore = ({}) => {
             onClick={() =>
               handleModalOpen(
                 "Partner With Us",
-                "Collaborate with TYC Africa Trust as a valued partner. Together we can amplify each other's commitment to social responsibility and community empowerment. Collaborate with us to drive meaningful change across Africa and the world at Large. Whether you're a corporation foundation nonprofit organization or individual donor our tailored partnership opportunities align with your values and goals. Through strategic collaborations, we address complex social challnges and build resilient communities, making a tangible difference in people's lives."
+                "Collaborate with TYC Africa Trust as a valued partner. Together we can amplify each other's commitment to social responsibility and community empowerment. Whether you're a corporation, foundation, nonprofit organization or individual donor our tailored partnership opportunities align with your values and goals. Through strategic collaborations, we address complex social challnges and build resilient communities."
               )
             }
           >
