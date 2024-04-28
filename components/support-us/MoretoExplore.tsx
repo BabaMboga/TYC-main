@@ -26,7 +26,7 @@ const MoretoExplore = ({}) => {
             </div>
             <div className="self-stretch  font-bold leading-10 text-center md:text-2xl">
               <p className=" my-3 font-normal leading-10 text-center text-white md:text-xl">
-              Discover diverse avenues to contribute to the mission of TYC Africa Trust beyond monetary donations. Connect with us using the contact details provided and let us guide you alternative methods of support. Explore the following sections to learn about unconventional ways through which you can actively participate in advancing our cause.
+              Discover diverse avenues to contribute to the mission of TYC Africa Trust beyond monetary donations. Connect with us using the contact details provided and let us guide you through alternative methods of support. Explore the following sections to learn about unconventional ways through which you can actively participate in advancing our cause.
               </p>
             </div>
           </div>
