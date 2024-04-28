@@ -46,7 +46,7 @@ const MoretoExplore = ({}) => {
             onClick={() =>
               handleModalOpen(
                 "Large Gift Donation",
-                "Make a transformative impact with your most generous contribution. A large gift donation represents a signifcant investment in TYC Africa Trust's mission to empower communities across Africa. Your support enables us to implement vital programs, address pressing needs and create lasting change for those in need. Together, we can make a profound difference in the lives of individuals and communities, driving sustainable development and fostering a brighter future for all."
+                "Make a transformative impact with your most generous contribution. A large gift donation represents a signifcant investment in TYC Africa Trust's mission to empower communities across Africa. Your support enables us to implement vital programs, address pressing needs and create lasting change for those in need."
               )
             }
           >
