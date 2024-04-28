@@ -4,10 +4,11 @@ import { useState } from "react";
 import FC from "react";
 
 interface ModalProps {
+  title : string
   handleClose: () => void;
 }
 
-const Modal: React.FC<ModalProps> = ({ handleClose }) => {
+const Modal: React.FC<ModalProps> = ({title, handleClose }) => {
   return (
     <>
       <>
@@ -17,7 +18,7 @@ const Modal: React.FC<ModalProps> = ({ handleClose }) => {
             <div className="border-0 rounded-lg shadpw-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
               {/* header */}
               <div className="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-                <h3 className="text-3xl font-semibold">Title</h3>
+                <h3 className="text-3xl font-semibold">{title}</h3>
                 <button
                   className="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                   onClick={handleClose}

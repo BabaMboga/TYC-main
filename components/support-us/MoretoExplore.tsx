@@ -7,8 +7,10 @@ import Modal from "@/components/support-us/donate/modal";
 
 const MoretoExplore = ({}) => {
   const [showModal, setShowModal] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
 
-  const handleModalOpen = () => {
+  const handleModalOpen = (title : string) => {
+    setModalTitle(title)
     setShowModal(true);
   }
 
@@ -35,7 +37,7 @@ const MoretoExplore = ({}) => {
         <div className="grid items-start justify-start gap-5 py-5 md:gap-24 md:grid-cols-2 md:py-20 px-14">
           <div 
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={handleModalOpen}
+            onClick={() => handleModalOpen("Large Gift Donation")}
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Large gift donation
@@ -46,7 +48,7 @@ const MoretoExplore = ({}) => {
 
           <div 
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={handleModalOpen}
+            onClick={() => handleModalOpen("Philanthropic Giving")}
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Philanthropic giving
@@ -57,7 +59,7 @@ const MoretoExplore = ({}) => {
 
           <div 
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={handleModalOpen}
+            onClick={() => handleModalOpen("Partner With Us")}
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12  text-2xl font-semibold  leading-10 tracking-wide">
               Partner with us
@@ -68,7 +70,7 @@ const MoretoExplore = ({}) => {
           
           <div 
             className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]"
-            onClick={handleModalOpen}
+            onClick={() => handleModalOpen("Other Ways To Give")}
           >
             <div className="w-80 h-16 left-[19px] top-[58px] absolute skew-x-12 text-2xl font-semibold  leading-10 tracking-wide">
               Other ways to give
@@ -77,7 +79,7 @@ const MoretoExplore = ({}) => {
           </div>
         </div>
       </div>
-      {showModal && <Modal handleClose={handleModalClose} />}
+      {showModal && <Modal title={modalTitle} handleClose={handleModalClose} />}
     </>
   );
 };
