@@ -30,8 +30,18 @@ const OurFounder = () => {
                         of two children. 
                     </p>
                 </div>
-                <div></div>
+                <div className="md:absolute inset-y-0 right-0 h-full md:w-[55%]">
+                    <Image 
+                        className="border"
+                        src={"/images/new/founder-director.jpg"}
+                        alt={"TYC founder & director"}
+                        width={720}
+                        height={994}
+                    />
+                </div>
             </div>
         </section>
     )
 }
+
+export default OurFounder;
