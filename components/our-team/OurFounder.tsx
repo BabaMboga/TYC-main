@@ -14,7 +14,7 @@ const OurFounder = () => {
                     </h2>
                     <h2 className="py-3 px-2 text-2xl text-center font-semibold">
                         <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(185, 28, 28, 1)] hover:shadow-[15px_8px_0px_rgba(185, 28, 28,1)]">
-                            <span>FOUNDER/DIRECTOR</span>
+                            <span>FOUNDER / DIRECTOR</span>
                         </Button>
                         
                     </h2>
@@ -33,7 +33,7 @@ const OurFounder = () => {
                 <div className="md:absolute inset-y-0 right-0 h-full md:w-[55%]">
                     <Image 
                         className="border"
-                        src={"/images/new/founder-director.jpg"}
+                        src={"/images/new/founder.jpg"}
                         alt={"TYC founder & director"}
                         width={720}
                         height={994}
