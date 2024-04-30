@@ -2,6 +2,7 @@
 import { CldVideoPlayer } from "next-cloudinary";
 import Image from "next/image";
 import "next-cloudinary/dist/cld-video-player.css";
+import ReactPlayer from "react-player";
 import { useState } from "react"
 
 const Hero = () => {
@@ -36,6 +37,18 @@ const Hero = () => {
         loop
         onDataLoad={handleVideoLoaded}
         className={`${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full h-full px-5`}
+      />
+
+      <ReactPlayer 
+        url=""
+        width={720}
+        height={720}
+        playing={true}
+        muted={true}
+        controls={true}
+        loop={true}
+        onReady={() => handleVideoLoaded()}
+        className={`${videoLoaded ? "block" : "hidden"} absolute z-20 w-full h-full px-5`}
       />
 
      
