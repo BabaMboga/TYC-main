@@ -40,9 +40,9 @@ const Hero = () => {
       />
 
       <ReactPlayer 
-        url=""
-        width={720}
-        height={720}
+        url="https://youtu.be/kDpkV87evwE"
+        width="720"
+        height="720"
         playing={true}
         muted={true}
         controls={true}
