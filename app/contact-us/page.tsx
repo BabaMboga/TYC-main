@@ -15,7 +15,7 @@ const page: FC<pageProps> = ({}) => {
             <section id="contact" className="pb-16 bg-violet-100" >
                 <div className="max-w-[1080px] pl-[20px] pr-[20px] mx-auto my-auto">
                     <h2 className="text-3xl font-bold text-center font-[800] px-10 text-[2.5rem] mb-8">
-                        Reach out
+                        Reach Out
                     </h2>
                     <div className="md:flex justify-between items-center">
                         <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
