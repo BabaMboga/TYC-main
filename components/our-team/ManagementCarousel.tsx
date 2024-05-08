@@ -49,4 +49,4 @@ function ManagementCarousel() {
     )
 }
 
-export default ManagementCarousel
+export default ManagementCarousel;
