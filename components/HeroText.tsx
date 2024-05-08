@@ -7,17 +7,20 @@ const HeroText = () => {
 
       <div className="flex items-center md:px-12">
         <p className="text-base md:text-lg font-normal text-center md:px-2">
-          <Link href={'/how-we-help'}><span className="underline">Get empowered</span></Link> with the skills, knowledge, and support you need to
-          overcome challenges and emerge as a confident, resilient, and
-          responsible adult.
+          Welcome to TYC Africa Trust, where we empower youth and uplift communities across Africa. Through our programs, we provide 
+          the skills, knowledge and support necessary for young individuals to overcome challenges and emerge as confident, resilient, 
+          and responsible adults. Whether it&apos;s through education, mentorship or skill-builidng initiatives, we&apos;re dedicated 
+          to nurturing the potential of African youth and preparing them for a brighter future.
+
         </p>
 
       </div>
 
       <div className="flex items-center md:px-12">
         <p className="text-base md:text-lg font-normal text-center md:px-2">
-          Or empower African Youth for a Brighter Tomorrow. Join Us in Making a
-          Difference: <Link href={'/support-us'}><span className="underline"> Donate, Fundraise, or Participate </span></Link> in Our Initiatives.
+          Join us in making a difference by empowering African youth for a brighter tomorrow. Your support matters. 
+          Whether you choose to donate, fundraise or participate in our initiatives, you&apos;re contributing to positive 
+          change in communities. Together, let&apos;s create opportunities, inspire growth, and build a better future of Africa.
         </p>
       </div>
     </div>

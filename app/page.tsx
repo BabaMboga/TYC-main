@@ -23,7 +23,7 @@ export default function Home() {
     </main>
     <div className="w-full lg:flex">
         <HeroText/>
-      </div>
+    </div>
 
     <section className='block p-2 md:px-10 md:py-8 bg-[#3FE2D3] min-h-[570px]'>
       <div className='text-start'>
