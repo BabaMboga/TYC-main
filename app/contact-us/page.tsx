@@ -1,6 +1,7 @@
 import GetInTouchCard from "@/components/GetInTouchCard";
 import ContactForm from "@/components/ContactForm";
 import {FC} from "react";
+import HeroText from "@/components/contact-us/HeroText";
 
 interface pageProps{
 
@@ -9,6 +10,8 @@ interface pageProps{
 const page: FC<pageProps> = ({}) => {
     return (
         <>
+            <HeroText />
+
             <section id="contact" className="pb-16 bg-violet-100" >
                 <div className="max-w-[1080px] pl-[20px] pr-[20px] mx-auto my-auto">
                     <h2 className="text-3xl text-center font-[800] text-[2.5rem] mb-8">

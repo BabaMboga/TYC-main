@@ -5,10 +5,12 @@ const HeroText = () => {
                 <p className="text-base md:text-lg font-normal text-center md:px-2">
                     Ready to take the next step? We&apos;re here to listen, assist and guide you. Whether you have questions, 
                     feedback or would like to explore partnership opportunities,our team is dedicated to providing you with 
-                    the support you need. Reach out to us today and let's start a conversation about how we can work together 
+                    the support you need. Reach out to us today and let&apos;s start a conversation about how we can work together 
                     to create positive change in our communities.
                 </p>
             </div>
         </div>
-    )
-}
+    );
+};
+
+export default HeroText;
