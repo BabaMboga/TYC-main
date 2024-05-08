@@ -13,6 +13,12 @@ import SupportOurWorkCard from '@/components/SupportOurWorkCard'
 export default function Home() {
   return (
     <>
+
+    <div className="w-full lg:flex">
+        <HeroText/>
+    </div>
+
+    
     <main className="flex flex-col w-full  ">
       <div className="flex-col my-10 text-sm lg:flex">
 
@@ -21,9 +27,7 @@ export default function Home() {
       </div>
 
     </main>
-    <div className="w-full lg:flex">
-        <HeroText/>
-    </div>
+    
 
     <section className='block p-2 md:px-10 md:py-8 bg-[#3FE2D3] min-h-[570px]'>
       <div className='text-start'>
