@@ -48,3 +48,5 @@ function ManagementCarousel() {
         </div>
     )
 }
+
+export default ManagementCarousel
