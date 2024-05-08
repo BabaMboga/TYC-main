@@ -81,4 +81,12 @@
   .paybill-box{
     height: calc(100vh / 3);
   }
+
+  .slick-slide > div {
+    margin: 0 10px;
+  }
+
+  .slick-dots li.stick-active button:before {
+    color:orangered !important;
+  }
 }
