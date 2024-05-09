@@ -20,42 +20,42 @@ const MoretoExplore = ({}) => {
 
           <div className="hidden md:block relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
             <div className="w-80 h-16 left-[19px] top-[58px] absolute  text-3xl font-normal  leading-10 tracking-wide">
-            <Link href={'/partner'}>Partner with us</Link>
+            <Link href={'/support-us'}>Partner with us</Link>
             </div>
             <div className="w-44 h-36 left-[274px] top-0 absolute opacity-70" />
           </div>
 
           <div className="rounded-sm  flex md:hidden bg-primary text-primary-foreground border-b-[6px] border-b-[rgb(29,78,216)]">
             <div className="text-2xl flex p-4">
-              <Link href={'/partner'}>Partner with us</Link>
+              <Link href={'/support-us'}>Partner with us</Link>
             </div>
           </div>
 
 
           <div className="hidden md:block relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
             <div className="w-80 h-16 left-[19px] top-[58px] absolute  text-3xl font-normal  leading-10 tracking-wide">
-            <Link href={'/resource-at-tyc-africa-trust'}>Knowledge hub</Link>
+            <Link href={'/resources-at-tyc-africa-trust'}>Knowledge hub</Link>
             </div>
             <div className="w-44 h-36 left-[274px] top-0 absolute opacity-70" />
           </div>
 
           <div className="rounded-sm  flex md:hidden bg-primary text-primary-foreground border-b-[6px] border-b-[rgb(29,78,216)]">
             <div className="text-2xl flex p-4">
-            <Link href={'/resource-at-tyc-africa-trust'}>Knowledge hub</Link>
+            <Link href={'/resources-at-tyc-africa-trust'}>Knowledge hub</Link>
             </div>
           </div>
 
 
           <div className="hidden md:block relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
             <div className="w-80 h-16 left-[19px] top-[58px] absolute  text-3xl font-normal  leading-10 tracking-wide">
-            <Link href={'/support-us'}>Refer a young person</Link>
+            <Link href={'/contact-us'}>Refer a young person</Link>
             </div>
             <div className="w-44 h-36 left-[274px] top-0 absolute opacity-70" />
           </div>
 
           <div className="rounded-sm  flex md:hidden bg-primary text-primary-foreground border-b-[6px] border-b-[rgb(29,78,216)]">
             <div className="text-2xl flex p-4">
-            <Link href={'/support-us'}>Refer a young person</Link>
+            <Link href={'/contact-us'}>Refer a young person</Link>
             </div>
           </div>
 
