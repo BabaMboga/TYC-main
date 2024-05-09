@@ -3,15 +3,15 @@ import OurFounder from "@/components/our-team/OurFounder";
 import ManagementCarousel from "@/components/our-team/ManagementCarousel";
 
 const Home = ({}) => {
-    return (
-        <>
-            <HeroText />
+  return (
+    <>
+      <HeroText />
 
-            <OurFounder />
+      <OurFounder />
 
-            <ManagementCarousel />
-        </>
-    );
+      <ManagementCarousel />
+    </>
+  );
 };
 
 export default Home;
