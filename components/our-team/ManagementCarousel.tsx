@@ -14,12 +14,12 @@ function ManagementCarousel() {
     };
 
     return (
-        <div className="w-3/4 m-auto">
+        <div className="w-3/4 m-auto ">
             <div className="mt-20">
                 <Slider {...settings}>
                     {managementData.map((data) => (
-                        <div key={data.name}>
-                            <a href="#" className="group relative block bg-black">
+                        <div key={data.name} className="h-[600px] rounded-xl">
+                            <a href="#" className="group relative block bg-black h-[600px]">
                                 <img 
                                     alt=""
                                     src={data.img}
