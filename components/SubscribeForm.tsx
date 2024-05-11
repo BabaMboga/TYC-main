@@ -49,10 +49,12 @@ const SubscribeForm = ({}) => {
                 To understand how we will store and use your details please see
                 our{" "}
               </span>
-              <Link href={'/privacy-policy'}>
-              <span className="text-xl font-normal  underline ">
-                privacy policy
-              </span></Link>
+              <a href="/docs/TYC-Privacy-Policy.pdf" download="TYC-Privacy-Policy.pdf">
+                <span className="text-xl font-normal  underline ">
+                  privacy policy
+                </span>
+              </a>
+              
             </div>
           </div>
         </div>
