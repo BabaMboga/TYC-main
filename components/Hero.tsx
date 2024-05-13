@@ -26,9 +26,9 @@ const Hero = () => {
        {/* Video Player */}
        <CldVideoPlayer
         width="1920"
-        height="500"
+        height={500}
         src="mevv8tnxabpoem4tde7k"
-        muted
+        muted={true}
         fluid
         controls
         hideContextMenu
