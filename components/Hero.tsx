@@ -25,7 +25,7 @@ const Hero = () => {
 
        {/* Video Player */}
        <CldVideoPlayer
-        width="1920"
+        width={1920}
         height={500}
         src="mevv8tnxabpoem4tde7k"
         muted={true}
@@ -35,7 +35,7 @@ const Hero = () => {
         autoPlay="always"
         loop
         onDataLoad={handleVideoLoaded}
-        className={`min-h-[500px] ${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full h-full px-5`}
+        className={`min-h-[500px] ${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full px-5`}
       />
 
      
