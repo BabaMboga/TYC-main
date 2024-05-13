@@ -35,7 +35,7 @@ const Hero = () => {
         autoPlay="always"
         loop
         onDataLoad={handleVideoLoaded}
-        className={`${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full h-full px-5`}
+        className={`min-h-[500px] ${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full h-full px-5`}
       />
 
      
