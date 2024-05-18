@@ -8,6 +8,14 @@ const HeroText = () => {
                     Frequently Asked Questions
                 </p>
             </div>
+
+            <div>
+                <p>
+                    Have questions? We&apos;ve got answers! Here are some of the most commonly 
+                    asked questions from our community. If you don&apos;t find what you&apos;re 
+                    looking for, feel free to reach out to us.
+                </p>
+            </div>
         </div>
     )
 }
