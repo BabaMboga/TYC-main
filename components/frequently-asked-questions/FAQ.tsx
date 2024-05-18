@@ -106,3 +106,5 @@ const FrequentlyAskedQuestions = () => {
         </>
     );
 };
+
+export default FrequentlyAskedQuestions;
