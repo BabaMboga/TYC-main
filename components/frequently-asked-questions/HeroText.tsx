@@ -9,13 +9,15 @@ const HeroText = () => {
                 </p>
             </div>
 
-            <div>
-                <p>
+            <div className="flex items-center md:px-12">
+                <p className="text-xl font-normal text-center md:px-2">
                     Have questions? We&apos;ve got answers! Here are some of the most commonly 
                     asked questions from our community. If you don&apos;t find what you&apos;re 
                     looking for, feel free to reach out to us.
                 </p>
             </div>
         </div>
-    )
-}
+    );
+};
+
+export default HeroText
