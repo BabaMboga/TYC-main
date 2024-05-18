@@ -59,7 +59,12 @@ const FrequentlyAskedQuestions = () => {
                     </summary>
 
                     <p className="mt-4 leading-relaxed text-gray-700">
-                        You can join TYC AFRICA TRUST by registering your name here.
+                        You can join TYC AFRICA TRUST by registering your name{" "}
+                        <a href="">
+                            <span className="text-gray-700 text-xl font-bold underline">
+                                here.
+                            </span>
+                        </a> 
                     </p>
                 </details>
             </div>
