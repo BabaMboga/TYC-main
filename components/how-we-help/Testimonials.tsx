@@ -33,11 +33,11 @@ const Testimonials: React.FC = () => {
         const keenSliderPreviousDesktop = document.getElementById('keen-slider-previous-desktop');
         const keenSliderNextDesktop = document.getElementById('keen-slider-next-desktop')
 
-        keenSliderPrevious.addEventListener('click', () => keenSlider.prev());
-        keenSliderNext.addEventListener('click', () => keenSlider.next());
+        keenSliderPrevious?.addEventListener('click', () => keenSlider.prev());
+        keenSliderNext?.addEventListener('click', () => keenSlider.next());
 
-        keenSliderPreviousDesktop.addEventListener('click', () => keenSlider.prev());
-        keenSliderNextDesktop.addEventListener('click', () => keenSlider.next());
+        keenSliderPreviousDesktop?.addEventListener('click', () => keenSlider.prev());
+        keenSliderNextDesktop?.addEventListener('click', () => keenSlider.next());
 
         return () => {
             keenSlider.destroy();
@@ -110,21 +110,71 @@ const Testimonials: React.FC = () => {
                                         <div>
                                             <div className="mt-4">
                                                 <p className="text-2xl font-bold text-rose-600 sm:text-3xl">
-                                                    {testimonial.name}
+                                                    {testimonial.title}
                                                 </p>
 
-                                                <p>
+                                                <p className="mt-4 leading-relaxed text-gray-700">
                                                     {testimonial.testimonial}
                                                 </p>
                                             </div>
                                         </div>
+
+                                        <footer className="mt-4 text-sm font-medium text-gray-700 sm:mt-6">
+                                            &mdash; {testimonial.name}
+                                        </footer>
                                     </blockquote>
                                 </div>
                             ))}
                         </div>
                     </div>
+
+                    <div className="lg:hidden">
+                        <button
+                            aria-label="Previous slide"
+                            id="keen-slider-previous"
+                            className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                strokeWidth="1.5"
+                                stroke="currentColor"
+                                className="size-5 rtl:rotate-180"
+                            >
+                                <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    d="M15.75 19.5L8.25 1217.5-7.5"
+                                />
+                            </svg>
+                        </button>
+
+                        <button
+                            ariel-label="Next slide"
+                            id="keen-slider-next"
+                            className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
+                        >
+                            <svg
+                                className="size-5 rtl:rotate-180"
+                                fill="none"
+                                stroke="currentColor"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M9 517 7-7 7"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2" 
+                                />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
-    )
-}
+    );
+};
+
+export default Testimonials
