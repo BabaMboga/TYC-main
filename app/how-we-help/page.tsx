@@ -6,6 +6,7 @@ import HeroText from '@/components/how-we-help/HeroText'
 import MoretoExplore from '@/components/how-we-help/MoretoExplore'
 import OpportunitiesCard1 from '@/components/how-we-help/OpportunitiesCard1'
 import {FC} from 'react'
+import Testimonials from '@/components/how-we-help/Testimonials'
 
 interface pageProps{
 
@@ -22,6 +23,8 @@ const page: FC<pageProps> = ({}) => {
         <OpportunitiesCard1/>
       </div>
     </section>
+
+    <Testimonials />
     
     <GetInTouchCard/>
 
