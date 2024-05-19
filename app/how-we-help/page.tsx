@@ -1,3 +1,4 @@
+"use client"
 import AnnualConferenceCard from '@/components/AnnualConferenceCard'
 import GetInTouchCard from '@/components/GetInTouchCard'
 import Hero from '@/components/Hero'
