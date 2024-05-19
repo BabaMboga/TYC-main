@@ -39,4 +39,6 @@ const testimonials = [
         name: "Robert Garcia",
         testimonial: "The resources provided by this organisation have been a lifeline. I highly recommend their programs to anyone seeking growth."
     },   
-]
+];
+
+export default testimonials
