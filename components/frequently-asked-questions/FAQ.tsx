@@ -61,7 +61,7 @@ const FrequentlyAskedQuestions = () => {
                     <p className="mt-4 leading-relaxed text-gray-700">
                         You can join TYC AFRICA TRUST by registering your name{" "}
                         <a href="">
-                            <span className="text-gray-700 text-xl font-bold underline">
+                            <span className="text-gray-700 text-lg font-bold underline">
                                 here.
                             </span>
                         </a> 
@@ -96,7 +96,7 @@ const FrequentlyAskedQuestions = () => {
                     <p className="mt-4 leading-relaxed text-gray-700">
                         Please register your area of interest{" "}
                         <a href="">
-                            <span className="text-gray-700 text-xl font-bold underline">
+                            <span className="text-gray-700 text-lg font-bold underline">
                                 here.
                             </span>
                         </a> 
