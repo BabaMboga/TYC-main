@@ -75,11 +75,11 @@ const EducationResources = ({}) => {
 
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-bold  leading-[44px]">
                     Academic excellence
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Access educational materials to support your academic journey.
                   Find study guides, reference materials, and learning aids to
                   aid your pursuit of knowledge
@@ -89,14 +89,14 @@ const EducationResources = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline ">
+                    {/* <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-6 h-6" />
                 </div>
@@ -119,11 +119,11 @@ const EducationResources = ({}) => {
 
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-bold  leading-[44px]">
                     Life Skills
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                   Navigate the challenges of life with confidence. Our life
                   skills resources cover essential aspects such as time
                   management, resilience, and effective communication
@@ -132,14 +132,14 @@ const EducationResources = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" h-12 py-4 pr-2 grow shrink basis-0">
                   <div className="">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline ">
+                    {/* <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-6 h-6" />
                 </div>
