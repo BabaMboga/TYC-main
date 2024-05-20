@@ -79,7 +79,7 @@ const EducationResources = ({}) => {
                     Academic excellence
                   </div>
                 </div>
-                <div className="self-stretch text-base font-normal  leading-[33.60px]">
+                <div className="self-stretch text-lg font-normal  leading-[33.60px]">
                   Access educational materials to support your academic journey.
                   Find study guides, reference materials, and learning aids to
                   aid your pursuit of knowledge
@@ -123,7 +123,7 @@ const EducationResources = ({}) => {
                     Life Skills
                   </div>
                 </div>
-                <div className="self-stretch text-base font-normal  leading-[33.60px]">
+                <div className="self-stretch text-xl font-normal  leading-[33.60px]">
                   Navigate the challenges of life with confidence. Our life
                   skills resources cover essential aspects such as time
                   management, resilience, and effective communication
