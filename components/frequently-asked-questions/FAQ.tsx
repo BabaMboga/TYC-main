@@ -167,6 +167,100 @@ const FrequentlyAskedQuestions = () => {
                     </p>
                 </details>
 
+                <details 
+                    className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+                    open
+                >
+                    <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+                        <h2 className="text-lg font-medium text-gray-900">
+                            How can I stay updated on TYC AFRICA TRUST events and news?
+                        </h2>
+
+                        <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="size-5 shriink-0 transition duration-300 group-open:-rotate-45"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                    clipRule="evenodd" 
+                                />
+                            </svg>
+                        </span>
+                    </summary>
+
+                    <p className="mt-4 leading-relaxed text-gray-700">
+                        You can subscribe to our newsletter, follow us on social media or check our website regularly for updates.
+                    </p>
+                </details>
+
+                <details 
+                    className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+                    open
+                >
+                    <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+                        <h2 className="text-lg font-medium text-gray-900">
+                            Can I donate items instead of money?
+                        </h2>
+
+                        <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="size-5 shriink-0 transition duration-300 group-open:-rotate-45"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                    clipRule="evenodd" 
+                                />
+                            </svg>
+                        </span>
+                    </summary>
+
+                    <p className="mt-4 leading-relaxed text-gray-700">
+                        Yes, we accept donations of items such as books, clothing, foodstuff, 
+                        educational materials among others. Please visit our Donate page for more 
+                        information.
+                    </p>
+                </details>
+
+                <details 
+                    className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
+                    open
+                >
+                    <summary className="flex cursor-pointer items-center justify-between gap-1.5">
+                        <h2 className="text-lg font-medium text-gray-900">
+                            How can organisations partner with TYC AFRICA TRUST?
+                        </h2>
+
+                        <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                className="size-5 shriink-0 transition duration-300 group-open:-rotate-45"
+                                viewBox="0 0 20 20"
+                                fill="currentColor"
+                            >
+                                <path
+                                    fillRule="evenodd"
+                                    d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
+                                    clipRule="evenodd" 
+                                />
+                            </svg>
+                        </span>
+                    </summary>
+
+                    <p className="mt-4 leading-relaxed text-gray-700">
+                        Organisations interested in partnering with us can contact us through various ways 
+                        specified on our website to discuss potential collaborations.
+                    </p>
+                </details>
+
+
 
             </div>
         </>
