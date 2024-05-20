@@ -1,17 +1,17 @@
 const managementData = [
     {
         name: 'Captain Peter M. Maranga',
-        img: '/images/facilitators/peter-maranga.jpg',
+        img: '/images/facilitators/peter-maranga-3.jpg',
         description: 'A veteran pilot and aviator, who has flown with the Kenya Air Force, worked in the Directorate of Civil Aviation and flow as a Captain of the Boeing 737, Boeing 767, Boeing 777 & Boeing 787 at Kenya Airways for many years.'
     },
     {
         name: "Teresa W. Thiong'o ",
-        img: '/images/facilitators/teresa-mwangi.jpg',
+        img: '/images/facilitators/teresa-thiongs.jpg',
         description: 'Counselling Pyschologist for Children and adolescents with speciality in trauma and loss & grief. HRM specialist. Founder & director Channan Jotis counselling and Rehabilitation Center.'
     },
     {
         name: 'Mrs Rose M Wanjohi',
-        img: '/images/facilitators/Rose-wanjohi.jpg',
+        img: '/images/facilitators/teresa-mwangi.jpg',
         description: 'Director of human resource and admin, Royal Media Services'
     },
     {
