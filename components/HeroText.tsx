@@ -19,7 +19,7 @@ const HeroText = () => {
       <div className="flex items-center md:px-12">
         <p className="text-base md:text-lg font-normal text-center md:px-2">
           Join us in making a difference by empowering youth for a brighter tomorrow. Your support matters. 
-          Whether you choose to donate, fundraise or participate in our initiatives, you&apos;re contributing to positive 
+          Whether you choose to donate, fundraise, volunteer or participate in our initiatives, you&apos;re contributing to positive 
           change in communities. Together, let&apos;s create opportunities, inspire growth, and build a better future of Africa.
         </p>
       </div>
