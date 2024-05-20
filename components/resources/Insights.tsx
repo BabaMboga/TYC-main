@@ -53,14 +53,14 @@ const Insights = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className="">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline ">
+                    {/* <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/resources-at-tyc-africa-trust/success-stories"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-6 h-6" />
                 </div>
@@ -97,14 +97,14 @@ const Insights = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline ">
+                    {/* <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/resources-at-tyc-africa-trust/expert-opinions"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-6 h-6" />
                 </div>
@@ -140,14 +140,14 @@ const Insights = ({}) => {
               <div className=" gap-4 p-4 ">
                 <div className=" h-12 py-4 pr-2 grow shrink basis-0">
                   <div className="">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline ">
+                    {/* <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
                         href={"/resources-at-tyc-africa-trust/youth-perspectives"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
                       </Link>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="relative w-6 h-6" />
                 </div>
