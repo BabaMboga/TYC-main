@@ -55,7 +55,7 @@ const Insights = ({}) => {
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
-                        href={"/"}
+                        href={"/resources-at-tyc-africa-trust/success-stories"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
@@ -99,7 +99,7 @@ const Insights = ({}) => {
                   <div className=" ">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
-                        href={"/"}
+                        href={"/resources-at-tyc-africa-trust/expert-opinions"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
@@ -142,7 +142,7 @@ const Insights = ({}) => {
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
-                        href={"/"}
+                        href={"/resources-at-tyc-africa-trust/youth-perspectives"}
                         className="flex flex-row justify-between w-full"
                       >
                         <p>Learn more</p> <Icons.right />
