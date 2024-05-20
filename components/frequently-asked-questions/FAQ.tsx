@@ -70,7 +70,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -105,7 +105,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -139,7 +139,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -169,7 +169,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -199,7 +199,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -231,7 +231,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -262,7 +262,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
@@ -294,7 +294,7 @@ const FrequentlyAskedQuestions = () => {
 
                 <details 
                     className="group border-s-4 border-green-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
-                    open
+                    
                 >
                     <summary className="flex cursor-pointer items-center justify-between gap-1.5">
                         <h2 className="text-lg font-medium text-gray-900">
