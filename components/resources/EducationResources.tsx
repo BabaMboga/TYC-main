@@ -36,7 +36,7 @@ const EducationResources = ({}) => {
                     Skill Development
                   </div>
                 </div>
-                <div className="self-stretch text-base font-normal  leading-[33.60px]">
+                <div className="self-stretch text-xl font-normal  leading-[33.60px]">
                   Sharpen your skills through practical guides, tutorials, and
                   interactive learning materials. From leadership to
                   communication, we provide resources to help you excel.
@@ -79,7 +79,7 @@ const EducationResources = ({}) => {
                     Academic excellence
                   </div>
                 </div>
-                <div className="self-stretch text-lg font-normal  leading-[33.60px]">
+                <div className="self-stretch text-xl font-normal  leading-[33.60px]">
                   Access educational materials to support your academic journey.
                   Find study guides, reference materials, and learning aids to
                   aid your pursuit of knowledge

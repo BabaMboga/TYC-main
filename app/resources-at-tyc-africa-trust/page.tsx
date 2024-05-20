@@ -31,11 +31,11 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-red-400 max-w-max">
+      {/* <section className="bg-red-400 max-w-max">
         <div className="">
           <Events />
         </div>
-      </section>
+      </section> */}
 
       <section className="">
         <div className="">
