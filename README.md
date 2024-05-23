@@ -75,23 +75,25 @@ The application should now be running on 'http://localhost:3000'
 
 ## Project Structure
 
-tyc-africa-trust/
-├── components/               # Reusable UI components
-├── app/                      # Next.js pages (each folder contains a page that represents a route)
-├── public/                   # Static assets (images, fonts, etc.)
-├── styles/                   # Global and component-specific styles
-├── utils/                    # Utility functions and helpers
-├── hooks/                    # Custom React hooks
-├── types/                    # TypeScript types and interfaces
-├── .eslintrc.json            # ESLint configuration
-├── .gitignore                # Git ignore file
-├── LICENSE                   # License information file
-├── next.config.js            # Next.js configuration
-├── package.json              # NPM package configuration
-├── README.md                 # Project README file
-├── tailwind.config.ts        # Tailwind configuration file
-├── tsconfig.json             # TypeScript configuration
-└── package-lock.json         # NPM package lock file
+**The current project structure:**
+
+    tyc-africa-trust/
+    ├── components/               # Reusable UI components
+    ├── app/                      # Next.js pages (each folder contains a page that represents a route)
+    ├── public/                   # Static assets (images, fonts, etc.)
+    ├── styles/                   # Global and component-specific styles
+    ├── utils/                    # Utility functions and helpers
+    ├── hooks/                    # Custom React hooks
+    ├── types/                    # TypeScript types and interfaces
+    ├── .eslintrc.json            # ESLint configuration
+    ├── .gitignore                # Git ignore file
+    ├── LICENSE                   # License information file
+    ├── next.config.js            # Next.js configuration
+    ├── package.json              # NPM package configuration
+    ├── README.md                 # Project README file
+    ├── tailwind.config.ts        # Tailwind configuration file
+    ├── tsconfig.json             # TypeScript configuration
+    └── package-lock.json         # NPM package lock file
 
 
 ## Contributing
