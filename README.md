@@ -6,13 +6,13 @@ This repository contains the source code for the TYC AFRICA trust website, built
 
 - [Project Description](#project-description)
 - [Features](#features)
-- [Technologies Used]
-- [Setup/Installation]
-- [Usage]
-- [Project Structure]
-- [Contributing]
-- [License]
-- [Support & Contact]
+- [Technologies Used](#technologies-used)
+- [Setup/Installation](#setup--installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
+- [Support & Contact](#support--contact)
 
 ## Project Description
 
@@ -32,7 +32,7 @@ TYC AFRICA Trust is dedicated to supporting youth development through various pr
 - **TypeScript**: A strongly typed programming language that builds on JavaScript.
 - **Tailwind CSS**: A utility-first CSS framework for styling.
 
-## Installation 
+## Setup & Installation 
 
 To get a local copy of the project up and running, follow these steps:
 
@@ -93,6 +93,7 @@ tyc-africa-trust/
 ├── tsconfig.json             # TypeScript configuration
 └── package-lock.json         # NPM package lock file
 
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports or feature requests please create an issue or submit a pull request.
@@ -115,4 +116,4 @@ This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file
 For any inquiries or questions, please contact TYC AFRICA Trust at:
 
 Email: info@tycafrica.org 
-Website: tyc-main.vercel.app
+Website: [tyc-main.vercel.app](https://tyc-main.vercel.app/)
