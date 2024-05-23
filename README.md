@@ -77,7 +77,7 @@ The application should now be running on 'http://localhost:3000'
 
 **The current project structure:**
 
-    tyc-africa-trust/
+    TYC-MAIN/
     ├── components/               # Reusable UI components
     ├── app/                      # Next.js pages (each folder contains a page that represents a route)
     ├── public/                   # Static assets (images, fonts, etc.)
