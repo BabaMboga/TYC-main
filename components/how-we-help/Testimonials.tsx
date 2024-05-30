@@ -2,6 +2,7 @@ import testimonials  from "./TestimonialsData";
 import React, { useEffect } from 'react';
 import KeenSlider from 'keen-slider';
 import 'keen-slider/keen-slider.min.css';
+import { Icons } from "../Icons"
 
 const Testimonials: React.FC = () => {
     useEffect(() => {
@@ -63,7 +64,7 @@ const Testimonials: React.FC = () => {
                                 id="keen-slider-previous-desktop"
                                 className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
                             >
-                                <svg
+                                {/* <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="none"
                                     viewBox="0 0 24 24"
@@ -76,7 +77,14 @@ const Testimonials: React.FC = () => {
                                         strokeLinejoin="round"
                                         d="M15.75 19.5L8.25 1217.5-7.5"
                                     />
-                                </svg>
+                                </svg> */}
+                                <Icons.right>
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="M15.75 19.5L8.25 1217.5-7.5" 
+                                    />
+                                </Icons.right>
                             </button>
 
                             <button
@@ -84,7 +92,7 @@ const Testimonials: React.FC = () => {
                                 id="keen-slider-next-desktop"
                                 className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
                             >
-                                <svg
+                                {/* <svg
                                     className="size-5 rtl:rotate-180"
                                     fill="none"
                                     stroke="currentColor"
@@ -97,7 +105,14 @@ const Testimonials: React.FC = () => {
                                         strokeLinejoin="round"
                                         strokeWidth="2"
                                     />
-                                </svg>
+                                </svg> */}
+                                <Icons.right>
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        d="M15.75 19.5L8.25 1217.5-7.5" 
+                                    />
+                                </Icons.right>
                             </button>
                         </div>
                     </div>
