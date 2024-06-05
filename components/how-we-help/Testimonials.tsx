@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import KeenSlider from 'keen-slider';
 import 'keen-slider/keen-slider.min.css';
 import { Icons } from "../Icons"
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 const Testimonials: React.FC = () => {
     useEffect(() => {
@@ -64,27 +65,7 @@ const Testimonials: React.FC = () => {
                                 id="keen-slider-previous-desktop"
                                 className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
                             >
-                                {/* <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 24 24"
-                                    strokeWidth="1.5"
-                                    stroke="currentColor"
-                                    className="size-5 rtl:rotate-180"
-                                >
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M15.75 19.5L8.25 1217.5-7.5"
-                                    />
-                                </svg> */}
-                                <Icons.right>
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M15.75 19.5L8.25 1217.5-7.5" 
-                                    />
-                                </Icons.right>
+                               <FaArrowLeft />
                             </button>
 
                             <button
@@ -92,27 +73,7 @@ const Testimonials: React.FC = () => {
                                 id="keen-slider-next-desktop"
                                 className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
                             >
-                                {/* <svg
-                                    className="size-5 rtl:rotate-180"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M9 517 7-7 7"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        strokeWidth="2"
-                                    />
-                                </svg> */}
-                                <Icons.right>
-                                    <path
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                        d="M15.75 19.5L8.25 1217.5-7.5" 
-                                    />
-                                </Icons.right>
+                                <FaArrowRight />
                             </button>
                         </div>
                     </div>
@@ -149,20 +110,7 @@ const Testimonials: React.FC = () => {
                             id="keen-slider-previous"
                             className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
                         >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                strokeWidth="1.5"
-                                stroke="currentColor"
-                                className="size-5 rtl:rotate-180"
-                            >
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    d="M15.75 19.5L8.25 1217.5-7.5"
-                                />
-                            </svg>
+                            <FaArrowLeft />
                         </button>
 
                         <button
@@ -170,20 +118,7 @@ const Testimonials: React.FC = () => {
                             id="keen-slider-next"
                             className="rounded-full border border-rose-600 p-3 text-rose-600 transition hover:bg-rose-600 hover:text-white"
                         >
-                            <svg
-                                className="size-5 rtl:rotate-180"
-                                fill="none"
-                                stroke="currentColor"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                            >
-                                <path
-                                    d="M9 517 7-7 7"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2" 
-                                />
-                            </svg>
+                            <FaArrowRight />
                         </button>
                     </div>
                 </div>
