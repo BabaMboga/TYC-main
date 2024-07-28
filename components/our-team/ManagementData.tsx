@@ -16,7 +16,7 @@ const managementData = [
     },
     {
         name: 'Rev Dr. James C. Gathioro',
-        img: '',
+        img: '/images/facilitators/facilitator-james.jpeg',
         description: 'A pilot, reverend and scholar'
     },
     {
