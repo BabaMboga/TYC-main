@@ -5,7 +5,7 @@ const DonationMpesaCard = () => {
     <>
       <section>
         <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="grid grid-cols-1 gap-8 lg: grid-cols-2 lg:gap-16">
+          <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
               <Image
                 className="absolute inset-0 h-full w-full object-cover"
@@ -40,19 +40,22 @@ const DonationMpesaCard = () => {
                     <p className="font-bold text-center text-black">Paybill No</p>
                     <div className="flex">
                       <div className="bg-white p-2 rounded-md mr-1">
-                        <p className="text-black">1</p>
+                        <p className="text-black">5</p>
                       </div>
                       <div className="bg-white p-2 rounded-md mr-1">
                         <p className="text-black">2</p>
                       </div>
                       <div className="bg-white p-2 rounded-md mr-1">
-                        <p className="text-black">3</p>
-                      </div>
-                      <div className="bg-white p-2 rounded-md mr-1">
-                        <p className="text-black">4</p>
+                        <p className="text-black">2</p>
                       </div>
                       <div className="bg-white p-2 rounded-md mr-1">
                         <p className="text-black">5</p>
+                      </div>
+                      <div className="bg-white p-2 rounded-md mr-1">
+                        <p className="text-black">2</p>
+                      </div>
+                      <div className="bg-white p-2 rounded-md mr-1">
+                        <p className="text-black">2</p>
                       </div>
                     </div>
                   </div>
@@ -77,6 +80,16 @@ const DonationMpesaCard = () => {
                         <p className="text-black">0</p>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-4 flex justify-center">
+                <div className="p-5 rounded-md">
+                  <div className="border bg-green-500 border-green-500 rounded-md p-4 text-center">
+                    <p className="font-bold text-white text-lg">
+                      Teenagers and Youth Center Africa
+                    </p>
                   </div>
                 </div>
               </div>
