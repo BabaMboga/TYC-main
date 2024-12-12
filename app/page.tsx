@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import AnnualConferenceCard from '@/components/AnnualConferenceCard'
 import GetInTouchCard from '@/components/GetInTouchCard'
 import Hero from '@/components/Hero'
@@ -6,11 +8,21 @@ import LandingSection1 from '@/components/LandingSection1'
 import OpportunitiesCard1 from '@/components/OpportunitiesCard1'
 import MoretoExplore from '@/components/MoretoExplore'
 import SubscribeForm from '@/components/SubscribeForm'
-import Image from 'next/image'
 import SupportOurWorkCard from '@/components/SupportOurWorkCard'
+import LaunchCountdown from '@/components/LaunchCountdown'
 
 
 export default function Home() {
+
+  const [showContent, setShowContent] =  useState(false);
+
+  const handleCountdownEnd = () => {
+    setShowContent(true);
+  };
+
+  if (!showContent) {
+    return <LaunchCountdown onEnd={handleCountdownEnd}/>
+  }
   return (
     <>
 
