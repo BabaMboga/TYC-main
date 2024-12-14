@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 
 import AnnualConferenceCard from '@/components/AnnualConferenceCard'
@@ -20,8 +21,10 @@ export default function Home() {
     setShowContent(true);
   };
 
+  const launchDate = new Date("2024-12-14T10:00:00")
+
   if (!showContent) {
-    return <LaunchCountdown onEnd={handleCountdownEnd}/>
+    return <LaunchCountdown launchDate={launchDate} onEnd={handleCountdownEnd}/>
   }
   return (
     <>
