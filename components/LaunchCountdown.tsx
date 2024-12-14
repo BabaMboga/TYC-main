@@ -4,10 +4,33 @@ import { Itim } from 'next/font/google';
 import Image from 'next/image';
 import Timer from './ui/Timer';
 import {useState, useEffect} from 'react';
+import Confetti from 'react-confetti';
+import {useWindowSize} from 'react-use';
+
+
 const montserrat = Montserrat({ weight: ["500", "600"], subsets: ["latin"]});
 const itim = Itim({weight: ["400"], subsets: ["latin"]});
 
 const LaunchCountdown = ({onEnd} : {onEnd: () => void}) => {
+
+  const [timeLeft, setTimeLeft] = useState(10);
+  const [showConfetti, setShowConfetti] = useState(false);
+  const {width, height} = useWindowSize();
+
+  useEffect(() => {
+    if (timeLeft > 0) {
+      const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
+      return () => clearTimeout(timer);
+    } else {
+      setShowConfetti(true);
+      const confettiTimer = setTimeout(() => {
+        setShowConfetti(false);
+        onEnd();
+      }, 15000);
+
+      return () => clearTimeout(confettiTimer);
+    }
+  },[timeLeft, onEnd])
   return (
     <main className="bg-yellow-400 container mx-auto h-screen flex justify-center items-center">
       <section className="px-4 w-full flex flex-col lg:flex-row justify-between items-center">
@@ -35,6 +58,14 @@ const LaunchCountdown = ({onEnd} : {onEnd: () => void}) => {
           />
         </aside>
       </section>
+      <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white">
+        {showConfetti && <Confetti width={width} height={height} />}
+        {!showConfetti && (
+          <div>
+            <h1 className="text-7xl">Countdown: {timeLeft}</h1>
+          </div>
+        )}
+    </div>
     </main>
   )
 }
