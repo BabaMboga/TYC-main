@@ -15,12 +15,22 @@ const LaunchCountdown = ({ launchDate, onEnd }: LaunchCountdownProps) => {
     return distance > 0 ? Math.floor(distance / 1000) : 0; // Time in seconds
   };
 
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState<number | null>(null);
   const [showConfetti, setShowConfetti] = useState(false);
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
 
   useEffect(() => {
+    //check if the countdown has ended previously
+    const countdownEnded = localStorage.getItem('coutndownEnded') === 'true';
+
+    if (countdownEnded) {
+      return;
+    }
+
+    //Only calculate timeLeft after mounting(client side)
+    setTimeLeft(calculateTimeLeft());
+
     // Adjust width and height for Confetti
     setWidth(window.innerWidth);
     setHeight(window.innerHeight);
@@ -35,22 +45,26 @@ const LaunchCountdown = ({ launchDate, onEnd }: LaunchCountdownProps) => {
   }, []);
 
   useEffect(() => {
-    if (timeLeft > 0) {
+    if (timeLeft !== null && timeLeft > 0) {
       const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
       return () => clearTimeout(timer);
-    } else {
+    } else if (timeLeft === 0){
       setShowConfetti(true);
       const confettiTimer = setTimeout(() => {
         setShowConfetti(false);
         onEnd(); // Trigger the next stage after confetti ends
-      }, 15000); // Confetti lasts for 15 seconds
+      }, 10000); // Confetti lasts for 15 seconds
 
       return () => clearTimeout(confettiTimer);
     }
   }, [timeLeft, onEnd]);
 
+  if (timeLeft === null) {
+    return null
+  }
+
   return (
-    <main className="bg-yellow-400 container mx-auto h-screen flex justify-center items-center">
+    <main className="bg-yellow-400 h-screen flex justify-center items-center">
       <section className="px-4 w-full flex flex-col lg:flex-row justify-between items-center">
         <aside className="w-full lg:w-1/2 text-center lg:text-start">
           <h1 className="text-6xl lg:text-7xl xl:text-8xl mb-5 text-black">
