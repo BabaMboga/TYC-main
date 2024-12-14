@@ -32,9 +32,9 @@ const getTimeLeft = (expiry: string) : TimeCount => {
     const snd = Math.floor((difference / 1000) % 60 );
 
     days = dys < 10 ? `0${dys}` : dys.toString(); 
-    hours = hrs < 10 ? `0${dys}` : hrs.toString(); 
-    minutes = mnt < 10 ? `0${dys}` : mnt.toString(); 
-    seconds = snd < 10 ? `0${dys}` : snd.toString(); 
+    hours = hrs < 10 ? `0${hrs}` : hrs.toString(); 
+    minutes = mnt < 10 ? `0${mnt}` : mnt.toString(); 
+    seconds = snd < 10 ? `0${snd}` : snd.toString(); 
 
 
     return {
@@ -53,7 +53,9 @@ const Timer = ({launchDate} : {launchDate: string}) => {
     useEffect(() => {
         const interval = setInterval(() => {
             setTimeLeft(getTimeLeft(launchDate));
-        }, 1000)
+        }, 1000);
+
+        return () => clearInterval(interval); // Cleanup
     }, [launchDate])
 
 

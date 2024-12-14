@@ -57,15 +57,12 @@ const LaunchCountdown = ({onEnd} : {onEnd: () => void}) => {
             className='w-full max-w-[650px] h-auto'
           />
         </aside>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white">
+          {showConfetti && <Confetti width={width} height={height} />}
+        
+        </div>
       </section>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-black text-white">
-        {showConfetti && <Confetti width={width} height={height} />}
-        {!showConfetti && (
-          <div>
-            <h1 className="text-7xl">Countdown: {timeLeft}</h1>
-          </div>
-        )}
-    </div>
+      
     </main>
   )
 }
