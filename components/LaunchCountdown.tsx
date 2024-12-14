@@ -3,11 +3,11 @@ import { Montserrat } from 'next/font/google';
 import { Itim } from 'next/font/google';
 import Image from 'next/image';
 import Timer from './ui/Timer';
-
+import {useState, useEffect} from 'react';
 const montserrat = Montserrat({ weight: ["500", "600"], subsets: ["latin"]});
 const itim = Itim({weight: ["400"], subsets: ["latin"]});
 
-const LaunchCountdown = () => {
+const LaunchCountdown = ({onEnd} : {onEnd: () => void}) => {
   return (
     <main className="bg-yellow-400 container mx-auto h-screen flex justify-center items-center">
       <section className="px-4 w-full flex flex-col lg:flex-row justify-between items-center">
