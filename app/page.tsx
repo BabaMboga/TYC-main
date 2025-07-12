@@ -10,22 +10,22 @@ import OpportunitiesCard1 from '@/components/OpportunitiesCard1'
 import MoretoExplore from '@/components/MoretoExplore'
 import SubscribeForm from '@/components/SubscribeForm'
 import SupportOurWorkCard from '@/components/SupportOurWorkCard'
-import LaunchCountdown from '@/components/LaunchCountdown'
+// import LaunchCountdown from '@/components/LaunchCountdown'
 
 
 export default function Home() {
 
-  const [showContent, setShowContent] =  useState(false);
+  // const [showContent, setShowContent] =  useState(false);
 
-  const handleCountdownEnd = () => {
-    setShowContent(true);
-  };
+  // const handleCountdownEnd = () => {
+  //   setShowContent(true);
+  // };
 
-  const launchDate = new Date("2024-12-14T11:00:00")
+  // const launchDate = new Date("2024-12-14T11:00:00")
 
-  if (!showContent) {
-    return <LaunchCountdown launchDate={launchDate} onEnd={handleCountdownEnd}/>
-  }
+  // if (!showContent) {
+  //   return <LaunchCountdown launchDate={launchDate} onEnd={handleCountdownEnd}/>
+  // }
   return (
     <>
 
