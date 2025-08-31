@@ -26,6 +26,10 @@ const Home = ({}) => {
       title: "Youth Conference",
       date: "2024-12-10",
       description: "Event: Community Outreach Program",
+    },{
+      title: "Mama help",
+      date: "2025-08-31",
+      description: "Event: Help old women",
     },
   ];
 
