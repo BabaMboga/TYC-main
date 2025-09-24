@@ -21,7 +21,9 @@ export default function Slider() {
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123201/tyc-images/image021_v2kohp.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123260/tyc-images/image077_ptfrqg.jpg' },
         { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123231/tyc-images/image053_j6g3lx.jpg' },
-        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123184/tyc-images/image007_vx93p8.jpg' }
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1706123184/tyc-images/image007_vx93p8.jpg' },
+        { url: 'https://res.cloudinary.com/djfitsjh9/image/upload/v1758003397/5b9554ab-b156-418e-b3c1-0b920474f318_hzlajb.jpg' }
+    
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);

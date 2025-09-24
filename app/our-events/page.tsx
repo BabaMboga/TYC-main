@@ -31,6 +31,41 @@ const Home = ({}) => {
       date: "2025-08-31",
       description: "Event: Help old women",
     },
+    {
+      title: "Nairobi Edition",
+      date: "2024-03-23",
+      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+    },
+    {
+      title: "Annual Conference",
+      date: "2024-12-10",
+      description: "Event: Annual Conference at Angani Resort Subukia",
+    },
+    {
+      title: "TYC Special Event",
+      date: "2025-01-18",
+      description: "Event: TYC Special Event at Vickim Academy",
+    },
+    {
+      title: "Nairobi Edition",
+      date: "2025-04-12",
+      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+    },
+    {
+      title: "Nairobi Edition",
+      date: "2025-04-19",
+      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+    },
+    {
+      title: "Nairobi Edition",
+      date: "2025-08-09",
+      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+    },
+    {
+      title: "Nairobi Edition",
+      date: "2025-08-23",
+      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+    },
   ];
 
   return (
