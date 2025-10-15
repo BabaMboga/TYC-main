@@ -10,31 +10,33 @@ import { cn, formatDate } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 import { ChevronLeft } from "lucide-react";
 
+// ✅ Define correct interface
 interface PostPageProps {
-  params: {
+  params: Promise<{
     slug: string[];
-  };
+  }>;
 }
 
+// ✅ Keep this pure and synchronous
 function getPostFromParams(params: { slug: string[] }) {
   const slug = params?.slug?.join("/");
   const post = allExpertOpinions.find((post) => post.slugAsParams === slug);
   return post ?? null;
 }
 
+// ✅ Make the page async and await params
 export default async function PostPage({ params }: PostPageProps) {
-  const post = getPostFromParams(params);
+  const resolvedParams = await params;
+  const post = getPostFromParams(resolvedParams);
 
   if (!post) {
     notFound();
   }
 
   const authors =
-    post.authors
-      ?.map((author) =>
-        allAuthors.find(({ slug }) => slug === `/authors/${author}`)
-      )
-      .filter(Boolean) ?? [];
+    post.authors?.map((author) =>
+      allAuthors.find(({ slug }) => slug === `/authors/${author}`)
+    ) ?? [];
 
   return (
     <article className="container relative max-w-3xl py-6 lg:py-10">
@@ -65,25 +67,28 @@ export default async function PostPage({ params }: PostPageProps) {
 
         {authors.length > 0 && (
           <div className="flex mt-4 space-x-4">
-            {authors.map((author: any) => (
-              <Link
-                key={author._id}
-                href={`/`}
-                className="flex items-center space-x-2 text-sm"
-              >
-                <Image
-                  src={author.avatar}
-                  alt={author.title}
-                  width={42}
-                  height={42}
-                  className="bg-white rounded-full"
-                />
-                <div className="flex-1 leading-tight text-left">
-                  <p className="font-medium">{author.title}</p>
-                  <p className="text-[12px] text-muted-foreground"></p>
-                </div>
-              </Link>
-            ))}
+            {authors.map(
+              (author) =>
+                author && (
+                  <Link
+                    key={author._id}
+                    href="/"
+                    className="flex items-center space-x-2 text-sm"
+                  >
+                    <Image
+                      src={author.avatar}
+                      alt={author.title}
+                      width={42}
+                      height={42}
+                      className="bg-white rounded-full"
+                    />
+                    <div className="flex-1 leading-tight text-left">
+                      <p className="font-medium">{author.title}</p>
+                      <p className="text-[12px] text-muted-foreground"></p>
+                    </div>
+                  </Link>
+                )
+            )}
           </div>
         )}
       </div>
