@@ -8,6 +8,8 @@ import { Icons } from "@/components/Icons";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import logo from '@/public/TYC-Logo-Large.svg'
+import NewNavbar from "@/components/NewNavbar";
+
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
@@ -55,7 +57,12 @@ export default function RootLayout({
                   </Link>{" "}
                   <Icons.donate />
                 </div>
-                <Navbar />
+                {/* <Navbar /> */}
+                <p className="block sm:text-sm md:text-xl"> Menu</p>
+                <Icons.menu/>
+                {/* <NewNavbar /> */}
+
+                
               </div>
             </div>
           </div>
