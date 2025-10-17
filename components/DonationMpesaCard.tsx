@@ -65,19 +65,25 @@ const DonationMpesaCard = () => {
                     <p className="font-bold text-center text-black">Account No</p>
                     <div className="flex">
                       <div className="bg-white p-2 rounded-md mr-1">
-                        <p className="text-black">6</p>
-                      </div>
-                      <div className="bg-white p-2 rounded-md mr-1">
                         <p className="text-black">7</p>
-                      </div>
-                      <div className="bg-white p-2 rounded-md mr-1">
-                        <p className="text-black">8</p>
                       </div>
                       <div className="bg-white p-2 rounded-md mr-1">
                         <p className="text-black">9</p>
                       </div>
                       <div className="bg-white p-2 rounded-md mr-1">
-                        <p className="text-black">0</p>
+                        <p className="text-black">3</p>
+                      </div>
+                      <div className="bg-white p-2 rounded-md mr-1">
+                        <p className="text-black">8</p>
+                      </div>
+                      <div className="bg-white p-2 rounded-md mr-1">
+                        <p className="text-black">8</p>
+                      </div>
+                      <div className="bg-white p-2 rounded-md mr-1">
+                        <p className="text-black">1</p>
+                      </div>
+                      <div className="bg-white p-2 rounded-md mr-1">
+                        <p className="text-black">1</p>
                       </div>
                     </div>
                   </div>
