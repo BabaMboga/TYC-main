@@ -1,6 +1,5 @@
 // @ts-nocheck
 
-
 import { notFound } from "next/navigation"
 import { allAuthors, allExpertOpinions } from "contentlayer/generated"
 
@@ -11,32 +10,30 @@ import "@/styles/mdx.css"
 import Image from "next/image"
 import Link from "next/link"
 
-import {  cn, formatDate } from "@/lib/utils"
+import { cn, formatDate } from "@/lib/utils"
 import { buttonVariants } from "@/components/ui/button"
 import { ChevronLeft } from "lucide-react"
 
 interface PostPageProps {
-  params: {
+  params: Promise<{
     slug: string[]
-  }
+  }>
 }
-
 
 async function getPostFromParams(params) {
   const slug = params?.slug?.join("/")
   const post = allExpertOpinions.find((post) => post.slugAsParams === slug)
 
   if (!post) {
-    null
+    return null
   }
 
   return post
 }
 
-
-
 export default async function PostPage({ params }: PostPageProps) {
-  const post = await getPostFromParams(params)
+  const resolvedParams = await params
+  const post = await getPostFromParams(resolvedParams)
 
   if (!post) {
     notFound()
