@@ -10,6 +10,8 @@ import logo from "@/public/TYC-Logo-Large.svg";
 const NavbarWrapper = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const handleCloseMenu = () => setIsMenuOpen(false);
+
   return (
     <>
       <div className="top-0 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -57,7 +59,7 @@ const NavbarWrapper = () => {
             className="bg-white z-[1000] rounded-lg shadow-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto p-6 relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <NewNavbar />
+            <NewNavbar onClose={handleCloseMenu}/>
             <button
               className="absolute top-3 right-4 z-[50] text-gray-600 hover:text-black text-2xl font-bold focus:outline-none bg-white/80 backdrop-blur-sm rounded-full  "
               onClick={() => setIsMenuOpen(false)}
