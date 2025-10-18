@@ -61,7 +61,7 @@ const MoretoExplore = ({}) => {
             onClick={() =>
               handleModalOpen(
                 "Philanthropic Giving",
-                " I did not understand philanthropic giving."
+                "Embrace strategic giving that creates lasting change. Philanthropic giving with TYC Africa Trust goes beyond traditional donations to establish meaningful, long-term partnerships. Whether through planned giving, endowments, donor-advised funds, or legacy bequests, your philanthropic commitment helps build sustainable programs that transform communities for generations to come. Work with us to design a giving strategy that reflects your values and maximizes your impact across Africa."
               )
             }
           >
