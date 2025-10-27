@@ -29,7 +29,7 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Try our mentorship programs
                   </div>
                 </div>
@@ -58,7 +58,7 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Explore our workshops
                   </div>
                 </div>
@@ -87,7 +87,7 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
                     Resilience Building Program
                   </div>
                 </div>
@@ -115,7 +115,7 @@ const OpportunitiesCard1 = ({}) => {
                 height: '400px',}}></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
-                  <div className="self-stretch  text-[40px] font-bold  leading-[44px]">
+                  <div className="self-stretch  text-[30px] font-semibold  leading-[44px]">
                     Join us at our Annual Youth conference
                   </div>
                 </div>
