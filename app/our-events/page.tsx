@@ -7,6 +7,7 @@ import Link from "next/link";
 import Calendar from "@fullcalendar/react";
 import dayGridPlugin from "@fullcalendar/daygrid";
 import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 
 const Home = ({}) => {
   //Array of Calendar events
@@ -15,56 +16,66 @@ const Home = ({}) => {
     {
       title: "Love Visit",
       date: "2024-03-23",
-      description: "Event: Love Visit",
+      extendedProps: {description: "Event: Love Visit",}
     },
     {
       title: "Love Visit",
       date: "2024-05-05",
-      description: "Event: Love Visit",
+      extendedProps: {description: "Event: Love Visit",},
+      
     },
     {
       title: "Youth Conference",
       date: "2024-12-10",
-      description: "Event: Community Outreach Program",
+      extendedProps: {description: "Event: Community Outreach Program",},
+      
     },{
       title: "Mama help",
       date: "2025-08-31",
-      description: "Event: Help old women",
+      extendedProps: {description: "Event: Help old women",},
+      
     },
     {
       title: "Nairobi Edition",
       date: "2024-03-23",
-      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+      extendedProps: {description: "Event: Nairobi Edition at Tropical Brands Africa Limited",},
+      
     },
     {
       title: "Annual Conference",
       date: "2024-12-10",
-      description: "Event: Annual Conference at Angani Resort Subukia",
+      extendedProps: {description: "Event: Annual Conference at Angani Resort Subukia",},
+      
     },
     {
       title: "TYC Special Event",
       date: "2025-01-18",
-      description: "Event: TYC Special Event at Vickim Academy",
+      extendedProps: {description: "Event: TYC Special Event at Vickim Academy",},
+      
     },
     {
       title: "Nairobi Edition",
       date: "2025-04-12",
-      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+      extendedProps: {description: "Event: Nairobi Edition at Tropical Brands Africa Limited",},
+      
     },
     {
       title: "Nairobi Edition",
       date: "2025-04-19",
-      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+      extendedProps: {description: "Event: Nairobi Edition at Tropical Brands Africa Limited",},
+      
     },
     {
       title: "Nairobi Edition",
       date: "2025-08-09",
-      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+      extendedProps: {description: "Event: Nairobi Edition at Tropical Brands Africa Limited",},
+      
     },
     {
       title: "Nairobi Edition",
       date: "2025-08-23",
-      description: "Event: Nairobi Edition at Tropical Brands Africa Limited",
+      extendedProps: {description: "Event: Nairobi Edition at Tropical Brands Africa Limited",},
+      
     },
   ];
 
@@ -89,20 +100,29 @@ const Home = ({}) => {
                 <Calendar
                   plugins={[dayGridPlugin]}
                   initialView="dayGridMonth"
-                  events={EventDates.map((event) => ({
-                    ...event,
-                    description: `Event: ${event.title}`,
-                  }))}
+                  events={EventDates}
+                  // events={EventDates.map((event) => ({
+                  //   ...event,
+                  //   description: `Event: ${event.title}`,
+                  // }))}
                   eventContent={({ event }) => (
                     <span
-                      date-tip={event.extendedProps.description}
-                      data-for="event-tooltip"
+                      data-tooltip-id="event-tooltip"
+                      data-tooltip-content={event.extendedProps.description}
+                      className="cursor-pointer font-medium"
                     >
                       {event.title}
                     </span>
                   )}
                   height="auto"
                   contentHeight="auto"
+                />
+                <Tooltip
+                id="event-tooltip"
+                place="top"
+                variant="dark"
+                className="!rounded-md !p-2 !text-sm !shadow-md" 
+                style={{backgroundColor: "black", color:"white"}}
                 />
               </div>
             </div>
@@ -113,7 +133,7 @@ const Home = ({}) => {
           </div>
 
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="  border border-zinc-200 flex-col   gap-[5px] inline-flex">
+            <div className="  border border-zinc-200 flex-col gap-[5px] inline-flex">
               <Image
                 src={"/events/tyc3.jpg"}
                 alt={""}
@@ -206,7 +226,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
@@ -239,16 +259,15 @@ const Home = ({}) => {
                   </div>
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
-                  Embrace the opportunity to bring warmth and companionship to
-                  the elderly residents of our community through our Elderly
+                  Embrace the opportunity to bring warmth & companionship through our Elderly
                   Care Visit program. As we step into their homes, we step into
-                  their stories, sharing laughter, memories, and heartfelt
-                  conversations ensuring we honor honor their wisdom, celebrate
-                  their lives, and cultivate a bond that transcends generations together.
+                  their stories, sharing laughter, memories & heartfelt
+                  conversations ensuring we honor their wisdom, celebrate
+                  their lives & cultivate bonds that transcend generations.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
-                <div className=" h-12 py-4 pr-2 grow shrink basis-0">
+                <div className=" gap-4 py-4 pr-2 grow shrink basis-0">
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
@@ -257,7 +276,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
@@ -269,7 +288,7 @@ const Home = ({}) => {
               </div>
             </div>
 
-            <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
+            <div className="  border border-zinc-200 flex-col gap-[5px] inline-flex ">
               <Image
                 alt={""}
                 src={"/events/tyc4.jpg"}
@@ -295,12 +314,11 @@ const Home = ({}) => {
                   come together to beautify our streets, rejuvenate our public
                   spaces and create a cleaner, healthier environment for
                   everyone. Every small act of kindness contributes to a more vibrant &
-                  welcoming community. Let&apos;s harness the power of
-                  unity as we show our love and care for the places we call home.
+                  welcoming community.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
-                <div className=" h-12 py-4 pr-2 grow shrink basis-0">
+                <div className="gap-4 py-4 pr-2 ">
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
@@ -309,7 +327,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
