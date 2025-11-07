@@ -1,5 +1,17 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                protocol:"https",
+                hostname: "res.cloudinary.com",
+                port: '',
+                pathname:"/**",
+                search:'',
+            },
+        ],
+    },
+};
 
 const { withContentlayer } = require('next-contentlayer')
 module.exports = withContentlayer(nextConfig)
