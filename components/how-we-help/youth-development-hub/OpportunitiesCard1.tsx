@@ -33,15 +33,15 @@ const OpportunitiesCard1 = ({}) => {
                     Try our mentorship programs
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 Experience personalized guidance and growth with our mentorship programs, where we help you navigate your professional journey.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/resources-at-tyc-africa-trust'}>Start a journey to success</Link> <Icons.right/>
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                     <Link className="flex" href={'/resources-at-tyc-africa-trust'}>Start a journey to success <Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
@@ -62,15 +62,15 @@ const OpportunitiesCard1 = ({}) => {
                     Explore our workshops
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 Expand your horizons with our interactive workshops, tailored to empower you with new skills and fresh perspectives.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/resources-at-tyc-africa-trust'}>Broaden your skill set</Link> <Icons.right/>
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                     <Link className="flex" href={'/resources-at-tyc-africa-trust'}>Broaden your skill set<Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
@@ -91,14 +91,14 @@ const OpportunitiesCard1 = ({}) => {
                     Resilience Building Program
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 Embark on a transformative journey with our personal development initiatives, fostering a stronger, more confident you                </div>
               </div>
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'/how-we-help/resilience-building'}>A path to self discovery</Link> <Icons.right/>
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                     <Link className="flex" href={'/how-we-help/resilience-building'}>A path to self discovery<Icons.right/></Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
@@ -119,14 +119,14 @@ const OpportunitiesCard1 = ({}) => {
                     Join us at our Annual Youth conference
                   </div>
                 </div>
-                <div className="self-stretch text-2xl font-normal  leading-[33.60px]">
+                <div className="self-stretch text-base font-normal  leading-[33.60px]">
                 Engage with industry leaders and peers, exchange ideas, and be part of a transformative experience. Discover a platform where learning meets excitement, and join us in shaping a brighter future together.                </div>
               </div>
               <div className=" gap-4 p-4 ">
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
-                    <div className="text-xl font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                     <Link href={'https://forms.gle/2vatDWT7Pu16gJ646'}>Explore conference details</Link> <Icons.right/>
+                    <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
+                     <Link className="flex" href={'https://forms.gle/2vatDWT7Pu16gJ646'}>Explore conference details <Icons.right/> </Link> 
                     </div>
                   </div>
                   <div className="relative w-6 h-6" />
