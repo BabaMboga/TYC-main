@@ -10,11 +10,6 @@ const testimonials = [
         testimonial: "The mentorship program is fantastic! My mentor guided me through my career decisions and personal growth."
     },
     {
-        name: "Emily Johnson",
-        title: "Helpful Courses",
-        testimonial: "I found the online courses extremely helpful. They were well-structured and easy to follow."
-    },
-    {
         name: "Michael Brown",
         title: "Amazing Community Events",
         testimonial: "The community events are amazing. I've met so many inspiring people and learned so much."
@@ -28,11 +23,6 @@ const testimonials = [
         name: "David Wilson",
         title: "Insightful Workshops",
         testimonial: "The mental wellness workshops were incredibly insightful. They provided practical tools that I use every day."
-    },
-    {
-        name: "Laura Martinez",
-        title: "Accessible Programs",
-        testimonial: "I appreciate the accessibility of the programs. The low-cost options allowed me to participate despite my tight budget."
     },
     {
         name: "James Anderson",
