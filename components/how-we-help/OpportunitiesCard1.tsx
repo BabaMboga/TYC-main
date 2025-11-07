@@ -10,10 +10,9 @@ const OpportunitiesCard1 = ({}) => {
         <div className="flex flex-col items-center justify-start gap-5 p-2 text-white md:gap-16 md:p-20 grow shrink basis-0">
           <div className="grid gap-4 md:grid-cols-2">
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
-              <img
-                src={
-                  "https://res.cloudinary.com/djfitsjh9/image/upload/v1706123108/tyc-images/image021_zypiuz.jpg"
-                }
+              
+              <Image
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123108/tyc-images/image021_zypiuz.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -23,7 +22,7 @@ const OpportunitiesCard1 = ({}) => {
                   width: "100%",
                   height: "400px",
                 }}
-              />
+              ></Image>
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
