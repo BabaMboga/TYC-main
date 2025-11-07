@@ -133,7 +133,7 @@ const Home = ({}) => {
           </div>
 
           <div className="grid gap-4 md:grid-cols-2">
-            <div className="  border border-zinc-200 flex-col   gap-[5px] inline-flex">
+            <div className="  border border-zinc-200 flex-col gap-[5px] inline-flex">
               <Image
                 src={"/events/tyc3.jpg"}
                 alt={""}
@@ -226,7 +226,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
@@ -259,16 +259,15 @@ const Home = ({}) => {
                   </div>
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
-                  Embrace the opportunity to bring warmth and companionship to
-                  the elderly residents of our community through our Elderly
+                  Embrace the opportunity to bring warmth & companionship through our Elderly
                   Care Visit program. As we step into their homes, we step into
-                  their stories, sharing laughter, memories, and heartfelt
-                  conversations ensuring we honor honor their wisdom, celebrate
-                  their lives, and cultivate a bond that transcends generations together.
+                  their stories, sharing laughter, memories & heartfelt
+                  conversations ensuring we honor their wisdom, celebrate
+                  their lives & cultivate bonds that transcend generations.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
-                <div className=" h-12 py-4 pr-2 grow shrink basis-0">
+                <div className=" gap-4 py-4 pr-2 grow shrink basis-0">
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
@@ -277,7 +276,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
@@ -289,7 +288,7 @@ const Home = ({}) => {
               </div>
             </div>
 
-            <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
+            <div className="  border border-zinc-200 flex-col gap-[5px] inline-flex ">
               <Image
                 alt={""}
                 src={"/events/tyc4.jpg"}
@@ -315,12 +314,11 @@ const Home = ({}) => {
                   come together to beautify our streets, rejuvenate our public
                   spaces and create a cleaner, healthier environment for
                   everyone. Every small act of kindness contributes to a more vibrant &
-                  welcoming community. Let&apos;s harness the power of
-                  unity as we show our love and care for the places we call home.
+                  welcoming community.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
-                <div className=" h-12 py-4 pr-2 grow shrink basis-0">
+                <div className="gap-4 py-4 pr-2 ">
                   <div className="">
                     <div className="text-xl font-medium leading-tight tracking-wide underline ">
                       <Link
@@ -329,7 +327,7 @@ const Home = ({}) => {
                         rel="noopener noreferrer"
                         className="flex flex-row justify-between w-full"
                       >
-                        <Button className="flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+                        <Button className="flex justify-betweenpy-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
                           <span>Register</span>
                           <Icons.right />
                         </Button>
