@@ -79,7 +79,7 @@ const OpportunitiesCard1 = ({}) => {
                 <div className=" gap-4 py-4 pr-2 ">
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
-                      <Link className="flex" href={"/how-we-help"}>
+                      <Link className="flex" href={"/how-we-help/talent-discovery"}>
                         Learn more <Icons.right />
                       </Link>
                     </div>
