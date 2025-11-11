@@ -13,7 +13,7 @@ const Hero = () => {
   };
 
   return (
-    <div className="h-fit relative">
+    <div className="h-[700px] w-full overflow-hidden relative">
       {/* Fallback Image */}
       <Image
         src={"/images/hero.jpg"}
@@ -24,11 +24,11 @@ const Hero = () => {
       />
 
        {/* Video Player */}
-       <CldVideoPlayer
+       {/* <CldVideoPlayer
         width={1920}
         height={700}
         src="mevv8tnxabpoem4tde7k"
-        muted={true}
+        muted={false}
         fluid
         controls
         hideContextMenu
@@ -36,12 +36,23 @@ const Hero = () => {
         loop
         onDataLoad={handleVideoLoaded}
         className={`max-h-[700px] ${videoLoaded ? 'block' : 'hidden'} absolute z-20 w-full h-full px-5`}
-      />
+      /> */}
 
-     
+     <div className="absolute top-0 left-0 w-full h-full">
+      <iframe 
+        className={`'absolute top-0 let-0 w-full h-full ${videoLoaded ? 'block' : 'hidden'}`}
+        src="https://www.youtube.com/embed/mkz3RlDV8TM?autoplay=1&mute=1&loop=1&playlist=mkz3RlDV8TM"
+        title="TYC Hero Video"
+        frameBorder={0}
+        allow="autoplay; fullscreen"
+        allowFullScreen
+        onLoad={handleVideoLoaded}
+      />
+     </div>
 
       {/* Centered Content */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
+      {!videoLoaded && (  
+      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
         <div className="flex flex-row items-center gap-2 md:gap-5 ">
           <div className="bg-transparent mix-blend-overlay">
             <svg
@@ -85,7 +96,7 @@ const Hero = () => {
             TRUST
           </p>
         </div>
-      </div>
+      </div>)}
     </div>
   );
 };
