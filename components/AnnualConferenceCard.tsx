@@ -22,7 +22,7 @@ const AnnualConferenceCard = () => {
           community passionate about shaping the future. Discover how
           you can be a part of this enriching event.
         </p>
-        <Link href={'https://forms.gle/2vatDWT7Pu16gJ646https://docs.google.com/forms/d/e/1FAIpQLScp8GZRNyK2W7C5N1UBWvKGqxTAL68naPXfGc2HWGYrbrgh-w/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link&urp=gmail_link'} className="p-4">
+        <Link href={'https://docs.google.com/forms/d/e/1FAIpQLSdhGxmJ9ZBfCAF-ynYEwd_VdNuXKC5bTXR4ZgGr_g1oM86quQ/viewform?usp=publish-editor'} className="p-4">
           <Button className='flex justify-between py-4 px-8 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(185,28,28,1)] hover:shadow-[15px_8px_0px_rgba(185,28,28,1)]'>
             <span>Register</span>
             <Icons.right/>
