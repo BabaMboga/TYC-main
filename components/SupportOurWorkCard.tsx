@@ -6,11 +6,11 @@ import Link from 'next/link'
 
 const SupportOurWorkCard = ({}) => {
    return <>
-    <div className='block min-h-max'>
-    <div className='relative items-center  md:flex'>
+    <div className='block'>
+    <div className=' relative md:items-center md:gap-8 md:flex flex flex-col-reverse md:py-16 md:min-h-[600px]'>
 
-        <div className='md:absolute h-full md:w-[55%]'>
-            <div className='top-0 left-0 w-full h-full md:absolute '>
+        <div className='md:flex md:h-full md:w-[55%] md:inset-0'>
+            <div className='top-0 left-0 w-full h-full md:absolute  '>
                 <div className='overflow-hidden opacity-1 '>
                     <Image className='border' src={'/images/support.jpg'} alt={'TYC members being adviced'} width={720} height={994}></Image>
                 </div>
