@@ -2,7 +2,7 @@ import AnnualConferenceCard from '@/components/AnnualConferenceCard'
 import GetInTouchCard from '@/components/GetInTouchCard'
 import SubscribeForm from '@/components/SubscribeForm'
 import HeroText from '@/components/how-we-help/talent-discovery/HeroText'
-import OpportunitiesCard1 from '@/components/how-we-help/youth-development-hub/OpportunitiesCard1'
+import OpportunitiesCard1 from '@/components/how-we-help/talent-discovery/OpportunitiesCard1'
 import {FC} from 'react'
 
 interface pageProps{
