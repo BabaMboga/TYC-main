@@ -27,7 +27,7 @@ const Insights = ({}) => {
           <div className="grid gap-4 md:grid-cols-3">
             <div className="  border border-zinc-200 flex-col   gap-[5px] inline-flex">
               <Image
-                src={"/images/photo6.jpg"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1758003405/b48f17f2-a327-4eaf-9fe2-a668e709643a_1_bqvnzc.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -70,7 +70,7 @@ const Insights = ({}) => {
             <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
               <Image
                 alt={""}
-                src={"/images/cardpicture3.png"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1758003399/b6122430-aef1-477d-acc2-9d28acf4963a_enl4l7.jpg"}
                 height={400}
                 width={400}
                 sizes="100vw"
@@ -114,7 +114,7 @@ const Insights = ({}) => {
             <div className="  border border-zinc-200 flex-col  gap-[5px] inline-flex ">
               <Image
                 alt={""}
-                src={"/images/photo4.jpg"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123176/tyc-images/image163_gvzwxg.jpg"}
                 height={400}
                 width={400}
                 sizes="100vw"

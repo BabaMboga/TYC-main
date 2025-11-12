@@ -91,7 +91,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
               <Image
-                src={"/images/cardpicture3.png"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1758003406/ca5f21c5-b8eb-4f40-bc0a-00c3c831a428_gmlstk.jpg"}
                 alt={""}
                 height={400}
                 width={400}
