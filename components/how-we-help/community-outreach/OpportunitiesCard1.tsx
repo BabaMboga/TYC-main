@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FC } from "react";
-import { Icons } from "../Icons";
+import { Icons } from "../../Icons";
 import Link from "next/link";
 
 const OpportunitiesCard1 = ({}) => {
@@ -12,7 +12,7 @@ const OpportunitiesCard1 = ({}) => {
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
               
               <Image
-                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123108/tyc-images/image021_zypiuz.jpg"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1758003401/356faad1-6587-4fea-8d66-1ac673caad72_fymln9.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -26,14 +26,12 @@ const OpportunitiesCard1 = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
-                    Youth Development program
+                    Grassroots Impact
                   </div>
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
-                  Our Youth Development program is a cornerstone at TYC Africa
-                  Trust. It&apos;s dedicated to equipping young individuals with
-                  the skills, knowledge, and experiences that pave the way for
-                  leadership and success
+                  We work hand-in0hand with local communities to identify their needs and co-create sustainable 
+                  solutions that uplift families and empower youth.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -41,7 +39,7 @@ const OpportunitiesCard1 = ({}) => {
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                       <Link className="flex" href={"/how-we-help/youth-development-hub"}>
-                        Learn more <Icons.right />
+                        Learn about our impact <Icons.right />
                       </Link>
                     </div>
                   </div>
@@ -52,7 +50,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
               <Image
-                src={"/images/use/image097.jpg"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123276/tyc-images/image099_tpgsv1.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -66,13 +64,12 @@ const OpportunitiesCard1 = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
-                    Talent Discovery
+                    Volunteer with us
                   </div>
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
-                  We believe in the power of individuality. Our Talent Discovery
-                  program is designed to identify and nurture the unique
-                  abilities of every young person.
+                  Join our growing network of passionate volunteers making a difference in their communities.
+                  Together, we create real change, one act at a time.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -80,7 +77,7 @@ const OpportunitiesCard1 = ({}) => {
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                       <Link className="flex" href={"/how-we-help/talent-discovery"}>
-                        Learn more <Icons.right />
+                        Get involved <Icons.right />
                       </Link>
                     </div>
                   </div>
@@ -91,7 +88,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
               <Image
-                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1758003406/ca5f21c5-b8eb-4f40-bc0a-00c3c831a428_gmlstk.jpg"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123257/tyc-images/image081_fhfh0d.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -105,13 +102,11 @@ const OpportunitiesCard1 = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
-                    Resilience Building Program
+                    Partnerships for Progress
                   </div>
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
-                  Mental health is a priority at TYC Africa Trust. Our
-                  Resilience Building program focuses on empowering youth with
-                  the tools to navigate the complexities of mental well-being.
+                  Collaboration drives change. We partner with organisations, schools and local governments to expand our reach and multiply impact.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -119,7 +114,7 @@ const OpportunitiesCard1 = ({}) => {
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                       <Link className="flex" href={"/how-we-help/resilience-building"}>
-                        Learn more <Icons.right />
+                        Partner with us <Icons.right />
                       </Link>
                     </div>
                   </div>
@@ -130,7 +125,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
               <Image
-                src={"/images/use/image085.jpg"}
+                src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123189/tyc-images/image015_byqqvk.jpg"}
                 alt={""}
                 height={400}
                 width={400}
@@ -144,14 +139,12 @@ const OpportunitiesCard1 = ({}) => {
               <div className="flex flex-col items-start self-stretch justify-start gap-4 px-4 pt-6 pb-4">
                 <div className="flex flex-col items-start justify-start gap-1 ">
                   <div className="self-stretch  text-[30px] font-semibold  leading-[34px]">
-                    Community Outreach
+                    Empowering Communities
                   </div>
                 </div>
                 <div className="self-stretch text-base font-normal  leading-[33.60px]">
-                  We are committed to being a positive force in communities
-                  through our Community Outreach program, focusing on corporate
-                  social responsibility (CSR) initiatives, environmental
-                  conservation, and support for the disadvantaged.
+                  From education to health and environment, our outreach initiatives equip communities with tools and knowledge
+                  to build brighter futures.
                 </div>
               </div>
               <div className=" gap-4 p-4 ">
@@ -159,7 +152,7 @@ const OpportunitiesCard1 = ({}) => {
                   <div className=" ">
                     <div className="text-base font-medium leading-tight tracking-wide underline flex justify-between w-full">
                       <Link className="flex" href={"/how-we-help/community-outreach"}>
-                        Learn more <Icons.right />
+                        See our initiatives <Icons.right />
                       </Link>
                     </div>
                   </div>

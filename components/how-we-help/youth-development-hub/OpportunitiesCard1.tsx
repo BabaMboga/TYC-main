@@ -22,7 +22,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
              
-              <Image src={"/images/cardpicture2.png"} alt={""} height={400} width={400} sizes="100vw"
+              <Image src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123167/tyc-images/image159_wpxaxr.jpg"} alt={""} height={400} width={400} sizes="100vw"
               // Make the image display full width
               style={{
                 width: '100%',
@@ -51,7 +51,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
              
-              <Image src={"/images/photo7.jpg"} alt={""} height={400} width={400} sizes="100vw"
+              <Image src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123083/tyc-images/image043_lx19ng.jpg"} alt={""} height={400} width={400} sizes="100vw"
               // Make the image display full width
               style={{
                 width: '100%',
@@ -80,7 +80,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
              
-              <Image src={"/images/photo5.jpg"} alt={""} height={400} width={400} sizes="100vw"
+              <Image src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123088/tyc-images/image051_p8adhx.jpg"} alt={""} height={400} width={400} sizes="100vw"
               // Make the image display full width
               style={{
                 width: '100%',
@@ -108,7 +108,7 @@ const OpportunitiesCard1 = ({}) => {
 
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
              
-              <Image src={"/images/photo4.jpg"} alt={""} height={400} width={400} sizes="100vw"
+              <Image src={"https://res.cloudinary.com/djfitsjh9/image/upload/v1706123097/tyc-images/image011_m9kygo.jpg"} alt={""} height={400} width={400} sizes="100vw"
               // Make the image display full width
               style={{
                 width: '100%',
