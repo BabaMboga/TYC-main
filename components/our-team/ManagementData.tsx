@@ -25,30 +25,12 @@ const managementData = [
         description: 'Bcom, MBA, entrepreneur & motivational speaker. Has climbed Mt.Kenya, Mt.Kilimanjaro & Mt.Everest. She comes to encourage young people to be disciplined and resilient.'
     },
     {
-        name: '',
-        img: '',
-        description: ''
+        name: 'Esther N Munyua',
+        img: '/images/facilitators/esther.jpg',
+        description: 'Esther is an Advocate of the High Court of Kenya with 5 years of experience. She is a graduate of Kenyatta University, School of Law and holder o Post Graduate Diploma from Keny School of Law. She is an alumnus of the MAry Leakey Girls High School and Kandutura Primary School(Kikuyu). She is a Christian and a highly favoured child of God'
     },
-    {
-        name: '',
-        img: '',
-        description: ''
-    },
-    {
-        name: '',
-        img: '',
-        description: ''
-    },
-    {
-        name: '',
-        img: '',
-        description: ''
-    },
-    {
-        name: '',
-        img: '',
-        description: ''
-    },
+    
+    
 ];
 
 export default managementData;
