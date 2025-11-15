@@ -72,28 +72,56 @@ const SubscribeForm = ({}) => {
           </div>
           
           <form 
+    
             className="inline-flex flex-col items-center justify-start gap-4 mt-4 grow shrink basis-0 "
+            onSubmit={handleSubmit}
           >
             <div className="">
             <div className="inline-flex items-center self-stretch justify-start h-12 gap-2 px-4 py-3 ">
               
-              <Input placeholder="First name"/>
+              <Input 
+                placeholder="First name"
+                value={firstName}
+                onChange={(e) => setFirstName(e.target.value)}
+                required
+              />
             </div>
             <div className="inline-flex items-center self-stretch justify-start h-12 gap-2 px-4 py-3 ">
               
-              <Input placeholder="Last name"/>
+              <Input 
+                placeholder="Last name"
+                value={lastName}
+                onChange={(e) => setLastName(e.target.value)}
+                required
+              />
             </div>
             <div className="md:inline-flex items-center self-stretch justify-start gap-1 md:gap-4">
               <div className="flex items-center justify-start h-12 gap-2 px-4 py-3 grow shrink basis-0 ">
                 
-                <Input placeholder="Email" type="email"/>
+                <Input 
+                  placeholder="Email" 
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
               </div>
               <div className=" px-3 py-4 ">
                 <div className="w-full">
-                  <Button type="submit">Subscribe</Button>
+                  <Button type="submit" disabled={loading}>
+                    {loading ? "Sending..." : "Subscribe"}
+                  </Button>
                 </div>
               </div>
             </div>
+            {/* Message */}
+            {
+              message && (
+                <div className="text-center text-lg text-teal-900 font-medium">
+                  {message}
+                </div>
+              )
+            }
             <div className="h-20 text-center ">
               <span className="text-xl font-normal  ">
                 To understand how we will store and use your details please see
