@@ -1,9 +1,56 @@
+"use client";
+
 import { FC } from "react";
 import { Input } from "./ui/input";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import {useState} from "react";
 
 const SubscribeForm = ({}) => {
+
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
+  const [email, setEmail] = useState("");
+  const [timestamp, setTimeStamp] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [message, setMessage] =useState("");
+
+  const handleSubmit = async (e:any) => {
+    e.preventDefault();
+    setLoading(true);
+    setMessage("");
+
+    try {
+      const res = await fetch("GOOGLE_APPS_SCRIPT_WEB_APP_URL", {
+        method: "POST",
+        body: JSON.stringify({
+          timestamp,
+          firstName,
+          lastName,
+          email
+        }),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      });
+
+      const result = await res.json();
+
+      if (result.status === "success") {
+        setMessage("Thank you for subscribing! 🎉 Check your email.");
+        setFirstName("");
+        setLastName("");
+        setEmail("");
+      } else {
+        setMessage("Something went wrong. Please try again");
+      }
+    } catch (error) {
+      setMessage("Network error - please try again.")
+    }
+
+    setLoading(false);
+  };
+
   return (
     <>
       <div className="  px-5 bg-[#3FE2D3] flex-col justify-center items-center gap-3 inline-flex">
@@ -24,7 +71,10 @@ const SubscribeForm = ({}) => {
             </div>
           </div>
           
-          <div className="inline-flex flex-col items-center justify-start gap-4 mt-4 grow shrink basis-0">
+          <form 
+            className="inline-flex flex-col items-center justify-start gap-4 mt-4 grow shrink basis-0 "
+          >
+            <div className="">
             <div className="inline-flex items-center self-stretch justify-start h-12 gap-2 px-4 py-3 ">
               
               <Input placeholder="First name"/>
@@ -56,7 +106,9 @@ const SubscribeForm = ({}) => {
               </a>
               
             </div>
-          </div>
+            </div>
+          </form>
+          
         </div>
       </div>
     </>
