@@ -4,15 +4,17 @@ This repository contains the source code for the TYC AFRICA trust website, built
 
 ## Table of Contents
 
-- [Project Description](#project-description)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup/Installation](#setup--installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Support & Contact](#support--contact)
+- [TYC AFRICA Trust Website](#tyc-africa-trust-website)
+  - [Table of Contents](#table-of-contents)
+  - [Project Description](#project-description)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Setup \& Installation](#setup--installation)
+  - [Usage](#usage)
+  - [Project Structure](#project-structure)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Support \& Contact](#support--contact)
 
 ## Project Description
 
@@ -118,4 +120,4 @@ This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file
 For any inquiries or questions, please contact TYC AFRICA Trust at:
 
 Email: info@tycafrica.org 
-Website: [tyc-main.vercel.app](https://tyc-main.vercel.app/)
+Website: [tycafricatrust.org](https://tycafricatrust.org/)
