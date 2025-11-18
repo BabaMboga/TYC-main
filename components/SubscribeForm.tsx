@@ -11,7 +11,7 @@ const SubscribeForm = ({}) => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
-  const [timestamp, setTimeStamp] = useState("");
+  
   const [loading, setLoading] = useState(false);
   const [message, setMessage] =useState("");
 
@@ -21,10 +21,9 @@ const SubscribeForm = ({}) => {
     setMessage("");
 
     try {
-      const res = await fetch("GOOGLE_APPS_SCRIPT_WEB_APP_URL", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbxOeFAXogWSH3GXeY1J9GiVvpY8YLV9ICjsllykBtwJ86aXyxLLFed96nhFtlY549AZ/exec", {
         method: "POST",
         body: JSON.stringify({
-          timestamp,
           firstName,
           lastName,
           email
