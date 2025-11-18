@@ -9,6 +9,7 @@ const OpportunitiesCard1 = ({}) => {
       <div className=" relative flex flex-col justify-start items-center gap-2.5 ">
         <div className="flex flex-col items-center justify-start gap-5 p-2 text-white md:gap-16 md:p-20 grow shrink basis-0">
           <div className="grid gap-4 md:grid-cols-2">
+            
             <div className="  border border-zinc-200 flex-col  items-center gap-[5px] ">
               
               <Image
