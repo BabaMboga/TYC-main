@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Button } from "../ui/button";
 import { Icons } from "../Icons";
+import Link from "next/link";
 
 const MoretoExplore = ({}) => {
   return (
@@ -25,8 +26,9 @@ const MoretoExplore = ({}) => {
 
 
           <div className="relative rounded-md w-96 h-36 bg-primary text-primary-foreground hover:bg-primary/90 transition-transform duration-1000 transform -skew-x-12 gap-1 shadow-[10px_8px_0px_rgba(29,78,216,1)] hover:shadow-[15px_8px_0px_rgba(29,78,216,1)]">
+          <Link href={'/tyc-gallery'}></Link>
             <div className="w-80 skew-x-12 h-16 left-[19px] top-[58px] absolute  text-3xl font-normal  leading-10 tracking-wide">
-              Media centre
+              TYC Gallery
             </div>
             {/* <div className="w-44 h-36 left-[274px] top-0 absolute opacity-70" /> */}
           </div>
