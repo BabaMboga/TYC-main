@@ -32,7 +32,7 @@ const Page = () => {
           const imgUrl = `https://res.cloudinary.com/djfitsjh9/image/upload/${item.public_id}.${item.format}`;
 
           return (
-            <div key={index}>
+            <div key={index} className='col-lg-4 col-md-4 col-sm-12 p-1'>
               <Image
                 src={imgUrl}
                 alt={item.public_id}
