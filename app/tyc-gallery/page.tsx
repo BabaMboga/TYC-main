@@ -3,6 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import Image from 'next/image';
+import  '../../styles/app.min.css';
 
 type CloudinaryResource ={
   public_id: string;
@@ -16,7 +17,7 @@ const Page = () => {
   useEffect (() => {
     
     axios
-    .get('https://res.cloudinary.com/djfitsjh9/image/list/assets.json')
+    .get('https://res.cloudinary.com/djfitsjh9/image/list/tyc-images.json')
     .then(function (response) {
       setPhotos(response.data.resources)
     })
