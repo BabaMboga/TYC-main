@@ -11,7 +11,7 @@ export async function GET() {
     try {
         const result = await cloudinary.search
             .expression('tags=tyc-images')
-            .sort_by('created_at', 'desc')
+            .sort_by('created_at', 'asc')
             .max_results(100)
             .execute();
         return NextResponse.json({ resources: result.resources});
