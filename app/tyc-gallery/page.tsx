@@ -16,15 +16,21 @@ const Page = () => {
   const [photos, setPhotos] = useState<CloudinaryResource[]>([])
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [cursor, setCursor] = useState<string | null>(null); //pagination cursor
+  const [loadingMore, setLoadingMore] = useState(false);
+
+  
 
   useEffect (() => {
-    fetch('/api/gallery')
+    const url = cursor ? `/api/gallery?page=${cursor}` : '/api/gallery';
+    fetch(url)
     .then(response => {
       if (!response.ok) throw new Error('Failed to fetch');
       return response.json();
     })
     .then(data => {
-      setPhotos(data.resources);
+      setPhotos(prev => cursor ? [...prev, ...data.resources] : data.resources);
+      setCursor(data.next_cursor || null);
       setLoading(false);
     })
     .catch(error => {
@@ -32,7 +38,7 @@ const Page = () => {
       setError(error.message);
       setLoading(false);
     });
-  }, []);
+  }, [cursor]);
 
   if (loading) return <div  className='App'><h1>Loading...</h1></div>;
   if (error) return <div className="App"><h1>Error: {error}</h1></div>;
@@ -55,7 +61,10 @@ const Page = () => {
           const imgUrl = `https://res.cloudinary.com/djfitsjh9/image/upload/${item.public_id}.${item.format}`;
 
           return (
-            <div key={index} className='relative w-full h-64 overflow-hidden shadow-lg transition-transform hover:scale-110'>
+            <div 
+              key={index} 
+              className='relative w-full h-64 overflow-hidden shadow-lg transition-transform hover:scale-110'
+            >
               <Image
                 src={imgUrl}
                 alt={item.public_id}
@@ -65,14 +74,29 @@ const Page = () => {
                 // height={800}
               ></Image>
             </div>
-          )
+          );
 
         })}
 
       </div>
 
+      {/* Load More button */}
+      {cursor && (
+        <div className='flex justify-center my-6'>
+          <button
+            onClick={() => {
+              setLoadingMore(true);
+              setCursor(cursor);
+            }}
+            className='px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition'
+          >
+            {loadingMore ? "Loading..." : "Load More"}
+          </button>
+        </div>
+      )}
+
     </div>
-  )
-}
+  );
+};
 
 export default Page;
