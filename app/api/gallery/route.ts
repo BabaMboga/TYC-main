@@ -7,14 +7,23 @@ cloudinary.config({
     api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 
-export async function GET() {
+export async function GET(req: Request) {
+
+    const {searchParams} = new URL(req.url);
+    const cursor = searchParams.get("cursor") || undefined;
     try {
         const result = await cloudinary.search
             .expression('tags=tyc-images')
             .sort_by('created_at', 'asc')
             .max_results(100)
+            .next_cursor(cursor) // pagination setup
             .execute();
-        return NextResponse.json({ resources: result.resources});
+
+
+        return NextResponse.json({ 
+            resources: result.resources,
+            next_cursor: result.next_cursor ?? null, //pass cursor back
+        });
     } catch (error) {
         console.error('Cloudinary error:', error);
         return NextResponse.json(
