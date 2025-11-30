@@ -55,12 +55,14 @@ const Page = () => {
           const imgUrl = `https://res.cloudinary.com/djfitsjh9/image/upload/${item.public_id}.${item.format}`;
 
           return (
-            <div key={index} className='w-full h-80 object-cover overflow-hidden shadow-lg transition-transform hover:scale-110'>
+            <div key={index} className='relative w-full h-64 overflow-hidden shadow-lg transition-transform hover:scale-110'>
               <Image
                 src={imgUrl}
                 alt={item.public_id}
-                width={800}
-                height={800}
+                fill
+                className='w-full h-full'
+                // width={100%}
+                // height={800}
               ></Image>
             </div>
           )
