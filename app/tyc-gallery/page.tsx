@@ -14,26 +14,48 @@ type CloudinaryResource ={
 const Page = () => {
   // const [photoGalleryAray, updatedPhotoGalleryArray] = useState([]);
   const [photos, setPhotos] = useState<CloudinaryResource[]>([])
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
   useEffect (() => {
-    
-    axios
-    .get('https://res.cloudinary.com/djfitsjh9/image/list/tyc-images.json')
-    .then(function (response) {
-      setPhotos(response.data.resources)
+    fetch('/api/gallery')
+    .then(response => {
+      if (!response.ok) throw new Error('Failed to fetch');
+      return response.json();
     })
-    .catch(function (error) {
-      console.log(error);
+    .then(data => {
+      setPhotos(data.resources);
+      setLoading(false);
+    })
+    .catch(error => {
+      console.error(error);
+      setError(error.message);
+      setLoading(false);
     });
   }, []);
+
+  if (loading) return <div  className='App'><h1>Loading...</h1></div>;
+  if (error) return <div className="App"><h1>Error: {error}</h1></div>;
+  // useEffect (() => {
+    
+  //   axios
+  //   .get('https://res.cloudinary.com/djfitsjh9/image/list/tyc-images.json')
+  //   .then(function (response) {
+  //     setPhotos(response.data.resources)
+  //   })
+  //   .catch(function (error) {
+  //     console.log(error);
+  //   });
+  // }, []);
   return (
-    <div className='App'>
+    <div className='new-App'>
       <h1 className='title'>TYC Gallery</h1>
-      <div className='gallery'>
+      <div className='grid md:grid-cols-3 gap-4 p-1'>
         {photos.map((item, index) => {
           const imgUrl = `https://res.cloudinary.com/djfitsjh9/image/upload/${item.public_id}.${item.format}`;
 
           return (
-            <div key={index} className='col-lg-4 col-md-4 col-sm-12 p-1'>
+            <div key={index} className='w-full h-80 object-cover overflow-hidden shadow-lg transition-transform hover:scale-110'>
               <Image
                 src={imgUrl}
                 alt={item.public_id}
