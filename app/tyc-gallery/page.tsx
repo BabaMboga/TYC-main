@@ -48,14 +48,14 @@ const Page = () => {
   //   });
   // }, []);
   return (
-    <div className='App'>
+    <div className='new-App'>
       <h1 className='title'>TYC Gallery</h1>
-      <div className='gallery'>
+      <div className='grid md:grid-cols-3 gap-4 p-1'>
         {photos.map((item, index) => {
           const imgUrl = `https://res.cloudinary.com/djfitsjh9/image/upload/${item.public_id}.${item.format}`;
 
           return (
-            <div key={index} className='col-lg-4 col-md-4 col-sm-12 p-1'>
+            <div key={index} className='w-full h-80 object-cover overflow-hidden shadow-lg transition-transform hover:scale-110'>
               <Image
                 src={imgUrl}
                 alt={item.public_id}
