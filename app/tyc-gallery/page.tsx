@@ -19,7 +19,30 @@ const Page = () => {
   const [cursor, setCursor] = useState<string | null>(null); //pagination cursor
   const [loadingMore, setLoadingMore] = useState(false);
 
-  
+  const fetchMoreImages = async () => {
+    if (!cursor) return;
+
+    try {
+      setLoadingMore(true);
+
+      const res = await fetch(`/api/gallery?cursor=${cursor}`);
+      if (!res.ok) throw new Error("Failed to fetch");
+
+      const data = await res.json();
+
+      setPhotos(prev => [...prev, ...data.resources]);
+
+      setCursor(data.next_cursor ?? null);
+
+      setLoadingMore(false);
+    } catch (err: any) {
+      console.error(err);
+      setError(err.message);
+      setLoadingMore(false);
+    }
+  };
+
+
 
   useEffect (() => {
     const url = cursor ? `/api/gallery?page=${cursor}` : '/api/gallery';
@@ -84,10 +107,7 @@ const Page = () => {
       {cursor && (
         <div className='flex justify-center my-6'>
           <button
-            onClick={() => {
-              setLoadingMore(true);
-              setCursor(cursor);
-            }}
+            onClick={fetchMoreImages}
             className='px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition'
           >
             {loadingMore ? "Loading..." : "Load More"}
