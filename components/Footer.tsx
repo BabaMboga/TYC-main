@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Icons } from "./Icons";
 import { Separator } from "./ui/separator";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
+import { FaTiktok } from 'react-icons/fa';
+
 
 const Footer = ({}) => {
   // Get current year
@@ -36,7 +38,7 @@ const Footer = ({}) => {
                 <Link href={'/'} target="_blank" rel="noopener noreferrer"><Icons.twitter className="md:h-9 md:w-9"/></Link>
                 <Link href={'https://www.facebook.com/profile.php?id=100064939352245'} target="_blank" rel="noopener noreferrer"><Icons.facebook className="md:h-9 md:w-9"/></Link>
                 <Link href={'https://www.instagram.com/tycafrica/'} target="_blank" rel="noopener noreferrer"><Icons.Instagram className="md:h-9 md:w-9"/></Link>
-                <Link href={'/'} target="_blank" rel="noopener noreferrer"><Icons.linkedin className="md:h-9 md:w-9"/></Link>
+                <Link href={'https://www.tiktok.com/@user3555418705347?is_from_webapp=1&sender_device=pc'} target="_blank" rel="noopener noreferrer"><FaTiktok className="md:h-9 md:w-9"/></Link>
 
                 </div>
               </div>
